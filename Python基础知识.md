@@ -8,75 +8,93 @@
 
 #### list1 = ['a', 1, 'c', 2]
 
-序列索引，list1[0] = 'a', list1[-1] = 2
+序列索引
 
-使用切片功能来访问特定范围内的元素, list1[2:4] = [1, 'c'], list1[-3:] = [1, 'c', 2], list1[:2] = ['a', 1]
+    list1[0] = 'a', list1[-1] = 2
 
-切片也是可以被赋值的
+使用切片功能来访问特定范围内的元素,切片也是可以被赋值的
 
-复制了一个list1列表, a = list1[:]
+    list1[2:4] = [1, 'c'], list1[-3:] = [1, 'c', 2], list1[:2] = ['a', 1]
 
-想每隔几个元素取一个元素的话，就需要使用步长了, list1[::2] =['a', 'c']
+复制了一个list1列表
 
-序列是可以拼接的，但是列表和字符串是不能拼接的, list1 + [1,2,3] = ['a', 1, 'c', 2, 1, 2, 3]
+    a = list1[:]
 
-序列中可以检查成员资格，使用关键字 in , 'a' in list1 = True
+想每隔几个元素取一个元素的话，就需要使用步长了
+
+    list1[::2] =['a', 'c']
+
+序列是可以拼接的，但是列表和字符串是不能拼接的
+
+    list1 + [1,2,3] = ['a', 1, 'c', 2, 1, 2, 3]
+
+序列中可以检查成员资格，使用关键字 in 
+
+    'a' in list1 = True
 
 序列中可以使用max、min、len关键字来获取列表的最大值、最小值以及列表的长度
 
-使用list关键字可以用字符串来创建列表, a = list('Hello')
+使用list关键字可以用字符串来创建列表
 
-使用join关键字可以把列表组成字符串，'*'.join([1,2,3,4,5]) = '1*2*3*4*5'
+    a = list('Hello')
 
-根据列表的下标来更改列表的值, list1[2] = 3 ,list1 = ['a', 3, 'c', 2],记住不能给不存在的下标赋值
+使用join关键字可以把列表组成字符串
 
-使用del关键字根据列表下标来删除列表中的元素, del list1[1]
+    '*'.join([1,2,3,4,5]) = '1*2*3*4*5'
+
+根据列表的下标来更改列表的值,记住不能给不存在的下标赋值
+
+    list1[2] = 3 ,list1 = ['a', 3, 'c', 2]
+
+使用del关键字根据列表下标来删除列表中的元素
+    
+    del list1[1]
 
 #### 列表（元组）方法
 
 1.将一个对象放入列表末尾：
 
-list1.append('a')
+    list1.append('a')
 
 2.就地清空列表：
 
-list1.clear()
+    list1.clear()
 
 3.复制列表，生成一个新的列表：
 
-list2 = list1.copy()
+    list2 = list1.copy()
 
 4.计算指定元素在列表中出现了多少次：
 
-list1.count(1)
+    list1.count(1)
 
 5.扩展列表：
 
-list1.extend(list2)
+    list1.extend(list2)
 
 6.查找指定值第一次在列表中出现的下标：
 
-list1.index(1)
+    list1.index(1)
 
 7.将一个对象插入列表：
 
-list1.insert(3, 'four') 在列表第四个位置插入'four'
+    list1.insert(3, 'four') 在列表第四个位置插入'four'
 
 8.从列表中取出一个值：
 
-list1.pop() = 2, pop方法可以传参，代表从某个位置取值，不传参数默认从列表末尾取值
+    list1.pop() = 2, pop方法可以传参，代表从某个位置取值，不传参数默认从列表末尾取值
 
 9.删除第一个为指定值的元素：
 
-list1.remove('c')
+    list1.remove('c')
 
 10.对列表进行就地排序，使用sort方法，该方法可接受两个参数key和reverse：
 
-list1.sort(key=len, reverse=True)
+    list1.sort(key=len, reverse=True)
 
 11.按照相反的顺序排列列表中的元素：
 
-list1.reverse()
+    list1.reverse()
 
 #### 字符串方法
 
@@ -84,45 +102,45 @@ list1.reverse()
 
 1.通过在两边填充字符，让字符串居中：
 
-stc.center()
+    stc.center()
 
 2.在字符串中查找子串，未找到则返回-1：
 
-stc.find('and')
+    stc.find('and')
 
 3.合并列表中的字符串，无法合并int类型：
 
-list1.join()
+    list1.join()
 
 4.返回字符串的小写版本：
 
-stc.lower()
+    stc.lower()
 
 5.返回字符串的大写版本：
 
-stc.title()
+    stc.title()
 
 6.将指定子串替换为另一个字符串：
 
-stc.replace('moo','ddo')
+    stc.replace('moo','ddo')
 
 7.将字符串拆分为列表：
 
-stc.split()
+    stc.split()
 
 8.将字符串的开头和结尾的空格删除：
 
-stc.strip()
+    stc.strip()
 
 9.单字符转化，translate。在转化以前需要先创建转化表
 
-table = str.maketrans('oo', 'dd', 'and') 依次为被替换掉的字符，需替换的字符，需删除的字符
+    table = str.maketrans('oo', 'dd', 'and') 依次为被替换掉的字符，需替换的字符，需删除的字符
 
-stc.translate(table)
+    stc.translate(table)
 
 ### 2.字典
 
-### dict1 = {
+    dict1 = {
 		'Alice' : '2341',
 		'Beth' : '9201',
 		'Cecil' : '3258'
@@ -130,52 +148,63 @@ stc.translate(table)
 
 #### 1.字典属性
 
-1.直接使用列表创建字典，使用dict关键字方法： a = dict([(1,'a'),(2,'b'),(3,'c'),(4,'d'),(5,'e')])
+1.直接使用列表创建字典，使用dict关键字方法：
 
-2.使用len来查询字典中项的个数： num = len(dict1)
+    a = dict([(1,'a'),(2,'b'),(3,'c'),(4,'d'),(5,'e')])
 
-3.返回字典中的所对应键的值： ID = dict1['Beth']
+2.使用len来查询字典中项的个数：
 
-4.修改字典中所对应键的值： dict1['Beth'] = '1111'
+    num = len(dict1)
 
-5.删除字典中所对应键的项： del dict1['Beth']
+3.返回字典中的所对应键的值：
 
-6.检查字典中是否存在所对应键的项： return 'Beth' in dict1
+    ID = dict1['Beth']
+
+4.修改字典中所对应键的值：
+
+    dict1['Beth'] = '1111'
+
+5.删除字典中所对应键的项：
+
+    del dict1['Beth']
+
+6.检查字典中是否存在所对应键的项：
+
+    return 'Beth' in dict1
 
 #### 2.字典方法
 
 1.删除字典所有项：
 
-dict1.clear()
+    dict1.clear()
 
 2.浅复制：
 
-dict2 = dict1.copy()
+    dict2 = dict1.copy()
 
 3.深复制：
 
-from copy import deepcopy
+    from copy import deepcopy
+    
+    dict2 = deepcopy(dict1)
 
-dict2 = deepcopy(dict1)
+4.创建一个新字典，其中包含指定的键和默认值,第一个传参的列表是即将创建字典的键，第二个传参是即将创建字典的默认值：
 
-4.创建一个新字典，其中包含指定的键和默认值：
-
-dict2 = dict.fromkeys(['name', 'age'], 'something')
-第一个传参的列表是即将创建字典的键，第二个传参是即将创建字典的默认值
+    dict2 = dict.fromkeys(['name', 'age'], 'something')
 
 5.获取字典中指定键所对应的值
 
-ID = dict1.get('Beth')
+    ID = dict1.get('Beth')
 
 6.返回一个包含字典所有项的列表
 
-list1 = dict1.items()
+    list1 = dict1.items()
 
 7.返回一个字典视图，其中包含指定字典中的键
 
-dict1.keys()
+    dict1.keys()
 
 8.从字典中取出一个与指定键相关联的值
 
-dict1.pop('Beth')
+    dict1.pop('Beth')
 
