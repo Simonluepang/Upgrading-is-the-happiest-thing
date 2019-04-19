@@ -200,11 +200,137 @@
 
     list1 = dict1.items()
 
-7.返回一个字典视图，其中包含指定字典中的键
+7.返回一个字典视图，包含指定字典中的键
 
     dict1.keys()
+    
+8.返回一个字典视图，包含指定字典中的值
 
-8.从字典中取出一个与指定键相关联的值
+    dict1.values()
+
+9.从字典中取出一个与指定键相关联的值
 
     dict1.pop('Beth')
+
+10.从字典中随机弹出一个字典项
+
+    dict1.popitem()
+    
+11.使用一个字典的项来更新另一个字典
+
+    dict1.update(dict2)
+    
+### 3.赋值魔法
+
+1.序列解包
+
+    # 可同时（并行）给多个变量赋值
+    
+    x, y, z = 1, 2, 3
+    
+    x, y = y, x
+    
+    # 序列解包字典
+    
+    dict1 = {1:'a', 2:'b'}
+    
+    key, value = dict1.popitem()
+    
+    print(key,value)
+    
+    # 可以使用星号运算符（*）来收集多余的值，这样无需确保值和变量的个数相同
+    
+    name = "Albus Oercival Wulfric Brain Dumbledore"
+    
+    first, *middle, last = name.split()
+    
+    print(middle)
+    
+2.链式赋值
+
+    x = y = 2
+    
+3.增强赋值
+
+    x += 1
+    
+### 4.循环
+
+1.while循环
+
+    x = 2
+    
+    while x <= 100:
+        
+        print(x)
+        
+        x **= 2
+        
+    name = 'xushenwei'
+    
+    while not name:
+        
+        name = input('Please enter your name: ')
+        
+    print(f"Hello,{name}!")
+    
+2.for循环
+
+    words = ['this', 'is', 'an', 'ex', 'parrot']
+    
+    for word in words:
+    
+        print(word)
+        
+3.跳出循环
+
+    break
+    
+4.结束当前循环，并跳到下一次循环开头执行
+
+    continue
+    
+5.while True/break成例
+
+    while True:														#循环永不结束
+    
+	word = input('Please enter a word: ')			
+	
+	if not word:													#如果没有输入word的话，就跳出循环
+	
+		break
+		
+	print('The word was ', word)
+	
+6.if...elif...else判断语句
+
+    from math import sqrt
+    
+    for n in range(99, 81, -1):
+    
+        root = sqrt(n)
+        
+        if root == int(root):
+        
+            print(n)
+            
+            break
+            
+    else:
+    
+        print('Do not find it.')
+        
+7.简单推导，从其他列表创建列表
+
+    list(x * x for x in range(10))
+    
+    list(x * x for x in range(10) if x % 3 == 0)
+    
+    list((x, y) for x in range(3) for y in range(3))
+    
+8.pass、del、exec三人行
+
+    暂缺失，需添加
+    
+### 5.抽象
 
