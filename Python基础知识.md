@@ -330,7 +330,143 @@
     
 8.pass、del、exec三人行
 
-    暂缺失，需添加
+1.pass的作用是一个占位符，意为什么都不做
+
+2.del的作用是删除对象
+
+    x = 1
+    
+    def x
+    
+    print(x)
+    
+3.exec的作用是将字符串作为代码执行
+
+    exec("print('Hello, world!')")
+    
+4.eval是一个类似于exec的内置函数，用字符串表示python表达式的值
+
+    eval(input("Enter an artithmetic expression: "))
     
 ### 5.抽象
+
+1.*args表示收集参数，返回的是一个列表；**kargs表示收集关键字参数，返回的是一个字典
+
+    def printArgs(*args,**kargs):
+    
+        print(args)
+        
+        print(kargs)
+        
+    printArgs(('This is a string.', 'This is another string', a=34, t='a', v='c')
+    
+2.分配参数,使用运算符*来实现
+
+    def add(x,y):
+    
+        return x + y
+        
+    params = (1,2)
+    
+    print(add(*params))
+    
+3.重新关联全局变量（使其指向新值）。在函数内部给变量赋值时，该变量默认为局部变量，除非你明确的告诉Python他是全局变量。
+
+    x =1
+    
+    def change_global():
+    
+        global x
+        
+        x = x + 1
+        
+    change_global()
+    
+    print(x)
+    
+4.作用域嵌套，Python函数可以嵌套，及可将一个函数放在另一个函数内，作用是可以使用一个函数来创造另一个函数
+
+    def multiplier(factor):
+    
+	    def mulitiplyByFactor(number):
+	
+		    return number * factor
+		    
+	    return mulitiplyByFactor
+	    
+    # 像multiplyByFactor这样存储其所在作用域的的函数称之为闭包
+	    
+    double = multiplier(2)
+    
+    print(double(5))
+    
+    triple = multiplier(3)
+    
+    print(triple(5))
+    
+    print(multiplier(4)(5))
+    
+5.递归：基线条件+递归条件
+
+    # 计算阶乘
+    
+    def factorial(n):
+        
+        # 递归做法
+        
+        if n == 1:
+        
+            return 1
+            
+        else:
+        
+            return n * factorial(n-1)
+            
+    def factorial(n):
+    
+        # 循环做法
+    
+        result = n
+        
+        for i in range(1,n):
+            
+            result *= i
+            
+        return result
+        
+6.lambda表达式：
+
+    seq = ["foo", "x41", "?!!", "***"]
+
+    print(list(filter(lambda x: x.isalnum(), seq)))
+    
+7.reduce
+
+    from functools import reduce
+    
+    a = reduce(lambda x, y: x + y, seq)
+    
+    print(a)
+    
+### 6.开箱即用模块
+
+#### 1.sys
+
+    sys.path.append("filepath")
+
+#### 2.os
+
+os模块
+
+#### 3.time
+
+time模块
+
+#### 4.random
+
+random模块
+
+#### 5.re
+
+re模块
 
