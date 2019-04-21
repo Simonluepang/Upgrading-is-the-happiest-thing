@@ -807,3 +807,27 @@ time模块
             
             return
             
+### 11.常用到的python库
+
+#### 1.处理Excel文件
+
+    import xlrd     # 使用该库来读取Excel文件信息
+    
+    import xlwt     # 使用该库来生成Excel文件
+    
+    import xluntils # 使用该库来修改Excel文件内容
+    
+#### 2.处理json数据
+
+    import json
+
+
+#### 3.处理doc文件
+
+    import docx
+    
+    import win32com
+
+#### 4.处理csv文件
+
+    import csv
