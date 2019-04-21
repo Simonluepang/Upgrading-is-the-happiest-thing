@@ -452,6 +452,8 @@
 
 #### 1.sys
 
+    import sys
+    
     sys.path.append("filepath")
 
 #### 2.os
@@ -464,9 +466,344 @@ time模块
 
 #### 4.random
 
-random模块
+    import random
+    
+    # 返回一个0~1（含）的随机实数
+    
+    random.random()
+    
+    # 返回一个(a,b]范围内的随机实数
+    
+    random.uniform(a,b)
+    
+    # 从给定序列中随机（均匀）地选择一个元素
+    
+    random.choice()
+    
+    # 随机地打乱一个可变序列中的元素，并确保每种可能的排列顺序出现的概率相同数
+    
+    random.shuffle()
+    
+    # 从给定序列中随机（均匀）地选择指定数量的元素，并确保所选择元素的值各不相同
+    
+    random.sample()
+    
+    
 
 #### 5.re
 
-re模块
+##### 1.正则表达式
 
+1.1 通配符：“.”，一个通配符只与一个字符匹配，例如'.ython'与'python'匹配但是不与'pjython'匹配
+
+1.2 特殊字符转义“\\”,例如'python\\.org'只与'python.org'匹配
+
+1.3 与在方括号内的字符都匹配，例如'[pj]ython'与'python'和'jython'都匹配，但不与其他字符串匹配。
+
+1.4 要指定排除字符集，可在字符集的开头添加一个^字符，例如'[^abc]'与除a、b和c外的其他任何字符都匹配。
+
+1.5 使用管道符实现二选一和子模式，例如'python|perl'，'p(ython|erl)'都只能与'python'或者'perl'匹配
+
+1.6 在子模式后面加上问号，可将其指定为可选的，即可包含可不包含。例如r'(http://)?(www\.)?python\.org'可以与以下字符串做匹配
+
+    'http://www.python.org' 
+    
+    'http://python.org' 
+    
+    'www.python.org' 
+    
+    'python.org'
+    
+1.7 指定字符串的开头和结尾，'^'和'$'
+
+##### 2.re模块
+
+    # 创建一个包含正则表达式的字符串对象
+    
+    r1 = re.compile(r'string')
+    
+    # 在给定字符串中查找第一个与指定正则表达式匹配的子串
+    
+    if re.search(pat, string): 
+        
+        print('Found it!')
+        
+    # 尝试在给定字符串开头查找与正则表达式匹配的子串
+    
+    re.match('p', 'python')
+    
+    # 根据与模式匹配的子串来分割字符串
+    
+    some_text = 'alpha, beta,,,,gamma delta'
+    
+    re.split('[, ]+', some_text)
+    
+    # 返回一个列表，其中包含所有与给定模式匹配的子串
+    
+    pat = '[a-zA-Z]+'
+    
+    text = '"Hm... Err -- are you sure?" he said, sounding insecure.'
+    
+    re.findall(pat, text)
+    
+    # 从左往右将与模式匹配的子串替换为指定内容
+    
+    pat = '{name}'
+    
+    text = 'Dear {name}...'
+    
+    re.sub(pat, 'Mr. Gumby', text)
+
+例如'^ht+p'与'http://python.org'和'htttttp://python.org'匹配，但与'www.http.org'不匹配
+
+### 7.操作文件
+
+#### 1.打开文件
+
+    # 打开文件
+    
+    file = open("filepath")
+    
+    # 打开文件并只读
+    
+    file = open("filepath", 'r')
+    
+    # 打开文件并写入,当文件路径不存在的时候创建它
+    
+    file = open("filepath", 'w')
+    
+    # 独占写入模式，当文件已存在时引发FileExistsError异常
+    
+    file = open("filepath", 'x')
+    
+    # 写入附加模式
+    
+    file = open("filepath", 'a')
+    
+    # 二进制模式
+    
+    file = open("filepath", 'rb')
+    
+    file = open("filepath", 'wb')
+    
+    file = open("filepath", 'xb')
+    
+    file = open("filepath", 'ab')
+    
+    # 文本模式
+    
+    file = open("filepath", 'rt')
+    
+    file = open("filepath", 'wt')
+    
+    file = open("filepath", 'xt')
+    
+    file = open("filepath", 'at')
+    
+    # 读写模式
+    
+    file = open("filepath", 'r+')
+    
+    file = open("filepath", 'w+')
+    
+    file = open("filepath", 'x+')
+    
+    file = open("filepath", 'a+')
+    
+#### 2.使用上下文管理器with对文件进行操作
+
+    with open("filepath", w) as file:
+    
+        a = file.read()
+        
+        b = file.readline()
+        
+        c = file.readlines()
+        
+        file.write(a)
+        
+        file.writelines(b+c)
+        
+### 8.对象魔法
+
+#### 1.使用对象的好处
+
+1.多态
+
+可对不同类型的对象执行相同的操作
+
+2.封装
+
+对外部隐藏有关对象工作原理的所有细节
+
+3.继承
+
+可基于通用类创建出专用类
+
+#### 2.私有方法，不能从外部访问
+
+    class Secretive:
+
+        def __inaccessible(self):
+        
+        # 这个是一个私有方法
+        
+            print("Bet you can't see me...")
+    
+        def accessible(self):
+        
+            print("The secret message is : ")
+            
+            self.__inaccessible()
+		
+#### 3.指定超类，子类扩展了超类的定义。
+
+    class Filter:
+    
+	'过滤序列通用类'
+	
+        def init(self):
+        
+            self.blocked = []
+    
+        def filter(self, sequence):
+            
+            #返回一个列表，内含所有在指定序列中没有包含在self.blocked内的元素
+            
+            return [x for x in sequence if x not in self.blocked]
+
+    class SPAMFilter(Filter):
+    
+        'Filter的子类,可过滤SPAM字符'
+        
+        def init(self):
+        
+            self.blocked[SPAM]
+            
+#### 4.多个超类，多重继承
+
+    class Calculator:
+    
+	'使用字符串来计算'
+	
+        def calculate(self, expression):
+        
+            self.value = eval(expression)
+    
+    class Talker:
+    
+        '把计算结果说出来'
+        
+        def talk(self):
+        
+            print('Hi, my value is ', self.value)
+    
+    class TalkingCalculator(Calculator, Talker):
+    
+        '该子类本身无所作为，他的所有行为都是从超类那里继承的'
+        
+        '从Calculator继承计算器功能，从Talker继承说话功能'
+        
+        pass
+        
+    tc = TalkingCalculator()
+    
+    tc.calculate('1 + 2 *3')
+    
+    tc.talk()
+    
+####  5.抽象基类，抽象类是不能（至少不应该）实例化的类，其职责是定义子类应实现的一组抽象方法
+
+    class Talker(ABC):
+    
+        @abstractmethod
+        
+        def talk(self):
+
+            pass
+		
+	a = Talker() # 该类现在无法被实例化
+	
+### 9.异常
+
+#### 1.主动引发异常
+
+    raise Exception('hyperdrive overload')
+    
+    # 常见的异常类
+    
+    raise Exception						#几乎所有的异常类都是从他派生而来的
+    
+    raise ArithmeticError				#引用属性或者给他赋值失败时引发
+    
+    raise OsError							#操作系统不能执行指定的任务（如打开文件）时引发，有多个子类
+    
+    raise IndexError						#使用序列中不存在的索引时引发，为LookupError的子类
+    
+    raise KeyError							#使用映射中不存在的键时引发，为LookupError的子类
+    
+    raise NameError						#找不到名称变量时引发
+    
+    raise SyntaxError						#代码不正确时引发
+    
+    raise TypeError						#将内置操作或函数用于类型不正确的对象是引发
+    
+    raise ValueError						#将内置操作或函数用于这样的对象是引发：其类型正确但是包含的值不合适
+    
+    raise ZeroDivisionError			#在除法或者求模运算的第二个参数为零时引发
+    
+#### 2.自定义异常类
+
+    class SomeCustomException(Exception):
+	    pass
+	    
+#### 3.捕获异常并进行处理
+
+    x = None
+    
+    try:
+    
+        x = 1 / 0
+        
+    except Exception as e:
+    
+        print(e)
+        
+    finally:
+    
+        print('Cleaning up...')
+        
+        del x
+        
+### 10.生成器
+
+关键字：yield，主要目的是生成值的序列
+
+    def get_primes(number):
+    
+    while True:
+    
+        if is_prime(number):
+        
+            yield number
+            
+        number += 1
+        
+    def solve_number_10():
+    
+    # She *is* working on Project Euler #10, I knew it!
+    
+    total = 2
+    
+    for next_prime in get_primes(3):
+    
+        if next_prime < 2000000:
+        
+            total += next_prime
+            
+        else:
+        
+            print(total)
+            
+            return
+            
