@@ -309,3 +309,370 @@ Tomcat相关命令
     vim initialAdminPassword
     
 将获得的密码复制进浏览器输入框，continue以后选择左边的全部安装，然后jekins就安装好了
+
+高频命令
+--
+
+### 命令 cd
+
+1.进入上级目录
+
+    cd ..
+    
+2.进入当前用户主目录
+
+    cd ~
+    
+3.进入上两级目录
+
+    cd ../..
+    
+4.进入当前目录
+
+    cd .
+    
+5.进入指定文件夹
+
+    cd /usr/isTester
+    
+### 命令 mv
+
+1.移动一个文件夹
+
+    mv ~/isTester/ /APP/www
+    
+2.移动一个文件
+
+    mv isTester.ini /APP/www
+    
+3.移动一个文件，并重命名
+
+    mv isTester.ini /APP/www/newTester.ini
+    
+4.移动文件至上级目录
+
+    mv isTester.ini ../
+    
+5.一条命令，移动两个文件至同一个文件夹
+
+    mv isTester.ini idoxu.tar -t /APP/www
+    
+### 命令 cp
+
+1.复制文件到目录
+
+    cp isTester.tar.gz /APP/www
+    
+2.复制2文件夹到目录
+
+    cp -r isTester/ /APP/www
+    
+### 命令mkdir
+
+1.新建一个文件夹
+
+    mkdir isTester
+    
+2.新建三个文件夹
+
+    mkdir isTester1 isTester2 isTester3
+    
+3.新建多层级文件夹
+
+    mkdir -p main/second/20190429
+    
+### 命令history
+
+1.查看历史命令执行记录
+
+    history
+    
+2.查看命令mkdir的历史执行记录
+
+    history | grep mkdir
+    
+3.执行历史记录中，序号为178的命令
+
+    !178
+    
+### 命令 tail
+
+1.实时刷新log日志
+
+    tail -f isTester.log
+    
+2.实时刷新最新500条日志记录
+
+    tail -500f isTester.log
+    
+### 命令 tar
+
+1.压缩一个文件
+
+    tar -cvf isTester.tar isTester.ini
+    
+2.压缩多个文件
+
+    tar -cvf all.tar isTester.ini readme.ini
+    
+3.压缩文件夹
+
+    tar -cvf isTester.tar isTester/
+    
+4.将当前目录中所有.jpg格式的文件打包
+
+    tar -cvf isTester.tar *.jpg
+    
+5.将当前目录中所有的.jpg格式的文件打包成.tar.gz
+
+    tar -zcvf isTester.tar.gz *.jpg
+    
+6.解压tar文件
+
+    tar -xvf isTester.tar
+    
+7.解压tar.gz文件
+
+    tar -zxvf isTester.tar.gz
+    
+### 命令 ls
+
+1.列出当前目录中的所有子文件夹和文件
+
+    ls
+
+2.列出当前目录下所有的文件，包括隐藏文件
+    
+    ls -a
+    
+3.列出文件的详细信息
+
+    ls -l
+    
+4.列出当前目录中所有以isTester开头的详细内容
+
+    ls -l isTester*
+    
+### 命令 ps
+
+1.查看所有进程
+
+    ps -A
+    
+2.查看java进程
+
+    ps -ef | grep java
+    
+3.查看所有进程信息，连同命令行
+
+    ps -ef
+    
+### 命令 top
+
+1.显示进程信息
+    
+    top
+
+2.监控每个逻辑CPU的状况
+
+    top
+    
+    1
+    
+3.高亮显示当前运行进程
+
+    top
+    
+    b
+    
+4.显示完整命令
+
+    top
+    
+    c
+    
+5.退出top程序
+
+    top
+    
+    q
+    
+### 命令 wget
+
+wget是一个下载文件的工具
+
+1.下载isTester.jpg文件
+
+    wget http://51.istester.com/isTester.png
+    
+2.下载文件，并更改储名
+
+    wget -o Newname.jpg http://51.istester.com/isTester.png
+    
+3.以后台形式下载文件
+
+    wget -b http://51.istester.com/isTester.png
+    
+### 命令 find
+
+1.在/root/isTester 目录及其子目录下面查找名字为isTester.ini的文件 
+
+    find /root/isTester/ -name isTester.ini
+    
+2.在当前目录及其子目录中查找任何扩展名为“ini”的文件
+
+    find . -name "*ini"
+    
+3.在/root/isTester目录下查找更改时间在5日以内的文件
+
+    find /root/isTester/ -mtime -5
+    
+4.在/root/isTester目录下查找更改时间在3日以前的文件
+
+    find /root/isTester/ -mtime +3
+    
+5.在/root/isTester目录下查找所有的目录
+
+    find /root/isTester/ -type d
+    
+6.在/root/isTester目录下查找所有的文件
+
+    find /root/isTester/ -type f
+    
+### 命令 rm
+
+1.删除目录下的文件
+
+    rm /root/isTester/isTester.ini
+    
+2.强行删除目录下的文件
+
+    rm -f /root/isTester/isTester.ini
+    
+3.删除目录下所有的.log文件
+
+    rm -f /root/isTester/*.log
+    
+4.删除目录下的ido文件夹
+
+    rm -r /root/isTester/ido/
+5.强行删除目录下的ido文件夹
+
+    rm -rf /root/isTester/ido/
+    
+6.删除目录下所有的内容
+
+    rm -rf /root/isTester/*
+    
+### 创建文件
+
+1.创建文件
+
+    touch isTester.ini
+    
+    vi isTester.md
+    
+    cp isTester.ini isTester666.ini
+    
+2.同时创建两个文件
+
+    touch isTester.ini idoxu.ini
+    
+3.同时创建2000个文件
+
+    touch isTester{0001,2000}.ini
+    
+4.更改文件isTester.ini的时间为当前时间
+
+    touch isTester.ini
+    
+### 查看文件
+
+命令提示
+#cat 由第一行开始显示档案内容 
+#tac 从最后一行开始显示，可以看出 tac 是 cat 的倒着写！ 
+#more 一页一页的显示档案内容 
+#less 与 more 类似，但是比 more 更好的是，他可以往前翻页！ 
+#head 只看头几行 
+#tail 只看尾巴几行 
+#nl 显示的时候，顺道输出 行号！
+
+1.查看文件 isTester.ini的内容
+
+    cat isTester.ini
+
+2.看文件 isTester.ini前20行内容
+
+    head -n 20 isTester.ini
+
+3.看文件 isTester.ini最后30行内容
+
+    tail -n 30 isTester.ini
+
+4.显示文件isTester.ini 的第10至20行的内容
+
+    head -n 20 isTester.ini | tail -n 10
+
+5.倒序显示文件isTester.ini 前10行的内容
+
+    tac isTester.ini | head -n 10
+
+6.显示文件isTester.ini 前10行的内容，并显示行号
+
+    nl isTester.ini | head -n 10
+    
+### 命令 yum & scp
+
+假设当前服务器IP 192.168.1.23
+
+1.从Linux服务器192.168.1.22 拷贝文件isTester.ini 到服务器192.168.1.23
+
+    scp root@192.168.1.22:/root/idoxu/isTester.ini /root/idoxu
+    
+2.从Linux服务器192.168.1.22 拷贝目录 isTester/ 到服务器192.168.1.23
+
+    scp -r root@192.168.1.22:/root/idoxu/isTester/ /root/idoxu
+
+3.Linux下安装scp命令（假设是centos服务器，命令用yum）
+
+    yum install openssh-clients
+    
+### 命令
+
+1.查看当前服务器IP
+    
+    ifconfig
+    
+2.查看当前服务器硬盘空间
+
+    df -h
+    
+3.查看目录isTester/ 所占用的空间
+
+    du -sh isTester
+    
+4.清空当前终端屏幕
+
+    clear
+    
+### 命令 vi + chmod
+
+1.创建文件 isTester.ini
+
+    vi isTester.ini
+
+2.更新文件内容为"21 day Linux Learn ,I'm Idolaoxu,in shenzhen ."
+
+    输入 i ，进入编辑模式，输入内容，esc进入命令模式 :wq 保存 。
+
+3.将文件 isTester.ini 设为所有人皆可读取
+
+    chmod +r isTester.ini
+
+4.将 isTester.ini 设定为只有该文件拥有者可以执行
+
+    chmod u+x isTester.ini
+
+5.给文件 isTester.ini 设置所有权限
+
+    chmod 777 isTester.ini
