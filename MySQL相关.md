@@ -28,6 +28,12 @@ except:
 db.close()
 ```
 
+[插入大数据，30万条数据](https://github.com/Simonluepang/Upgrading-is-the-happiest-thing/blob/master/bigTest.py)
+--
+使用MySQL语句中的多行插入,并且使用python中的协程
+
+可以做到8s插入30w条数据
+
 视图和表的区别
 --
 * 表是物理存在的，可以对表进行update、insert、delete等操作来修改表中的数据
@@ -83,3 +89,4 @@ cmd中操作MySQL
 修改表中数据
 
     update 表名 set 字段名='新值' where 条件
+    
