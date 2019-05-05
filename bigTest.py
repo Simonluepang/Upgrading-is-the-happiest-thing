@@ -2,9 +2,9 @@ import pymysql
 import gevent
 import time
 """
-1.使用pymysql多行插入（提高效率）
-2.使用python协程（遇到I/O操作就切换任务，无需等待，提高效率）
-30w条数据耗时9.45s
+1.使用pymysql多行插入（提高效率）--executemany
+2.使用python协程（遇到I/O操作就切换任务，无需等待，提高效率）gevent.spwan + gevent.joinall
+30w条数据耗时8s
 """
 
 class MyPyMysql:
@@ -55,7 +55,7 @@ class MyPyMysql:
 		max_line = 10000	# 定义每次最大插入行数（max_line=10000，即一次插入10000行）
 		g_l = [gevent.spawn(self.run,i,i+max_line) for i in range(1,300001,max_line)]
 
-		# gevent.joinall方法等待所有操作哦都执行完毕
+		# gevent.joinall方法等待所有操作都执行完毕
 		gevent.joinall(g_l)
 		self.cur.close()	# 关闭游标
 		self.conn.close()	# 关闭pymysql连接

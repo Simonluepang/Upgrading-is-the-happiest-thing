@@ -2,6 +2,14 @@
 
 ## Python的数据结构（int、str、float、list、bool、tuple、dict、set）
 
+面向对象三大特征：继承、封装、多态
+
+封装：根据职责将属性和方法封装到一个抽象的类中
+
+继承：实现代码的重用，不需要重复编写代码。子类拥有父类所有的属性和方法。也可以重新父类方法
+
+多态：不同的对象调用相同的代码，产生不同的效果，提高代码的灵活性
+
 ### 1.列表,元组和字符串
 
 #### 列表（元组）属性
@@ -629,6 +637,24 @@ time模块
         file.write(a)
         
         file.writelines(b+c)
+        
+#### 3.手写读取文件，然后写入内容，最后把内容打印出来
+
+    fileName  = 'filename.txt'
+    
+    with open(fileName 'w') as f:
+        
+        f.write('This is a content.')
+        
+    with open(fileName 'a') as f:
+    
+        f.write('This is an add.')
+        
+    with open(fileName) as f:
+        
+        content = f.read()
+        
+        print(content)
         
 ### 8.对象魔法
 
