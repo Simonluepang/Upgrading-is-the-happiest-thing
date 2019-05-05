@@ -47,9 +47,7 @@ Linux相关命令
     
 11.对当前文件改名
 
-    cp /test1/file1 /test1/file2
-    
-    rm -f /test1/file1
+    mv /test1/file1 /test1/file2
     
 12.将/test1 目录下的 file1 移动到/test3 目录，并将文件名改为 file2
 
