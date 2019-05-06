@@ -32,7 +32,7 @@ db.close()
 --
 使用MySQL语句中的多行插入,并且使用python中的协程
 
-1.使用pymysql多行插入（提高效率）--executemany
+1.使用pymysql多行插入（提高效率）--pymsql.connect.().cursor().executemany(sql,datalist)
 
 2.使用python协程（遇到I/O操作就切换任务，无需等待，提高效率）gevent.spwan + gevent.joinall
 
@@ -47,6 +47,8 @@ db.close()
 子查询
 --
 就是内部查询，就是查询中嵌套查询
+
+SELECT中，FROM后，WHERE中
 
 
     # 列出各门课程成绩最好的 2 位学生， 要求显示字段: 学号，姓名, 科目，成绩

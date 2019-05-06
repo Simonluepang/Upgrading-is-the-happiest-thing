@@ -50,3 +50,14 @@ def isElementExsist(driver,location):
 --
 
     elementParent = driver.find_element_by_name("son").parent
+    
+selenium切换最新的窗口
+--
+
+    # 获取当前打开浏览器的所有窗口
+    
+    handles = driver.window_handles
+    
+    # 切换窗口至最新窗口
+    
+	driver.switch_to.window(handles[-1])

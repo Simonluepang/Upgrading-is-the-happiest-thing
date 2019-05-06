@@ -89,6 +89,8 @@ app 的日志如何抓取
 --
 adb logcat | find "com.sankuai.meituan" >d:\hello.txt
 
+使用iTools连接iPhone，在工具箱内使用实时日志的功能，还可以查看崩溃日志
+
 日志常见的异常
 --
 NullPointerException - 空指针引用异常
