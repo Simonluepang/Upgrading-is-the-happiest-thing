@@ -1,0 +1,839 @@
+1516959766754	geckodriver	INFO	geckodriver 0.19.1 (0000000000000000000000000000000000000000 2017-10-31)
+1516959766761	geckodriver	INFO	Listening on 127.0.0.1:64757
+1516959768776	mozrunner::runner	INFO	Running command: "D:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.wVd39GiT7lhQ"
+1516959769215	Marionette	INFO	Enabled via --marionette
+[Child 10628, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10628, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1516959770321	Marionette	INFO	Listening on port 64765
+1516959770787	Marionette	WARN	TLS certificate errors will be ignored for this session
+1516959770834	Marionette	DEBUG	Register listener.js for window 4294967297
+1516959770926	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1516959770944	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1516959770944	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1516959771032	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1516959771086	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1516959771217	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1516959771237	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1516959771237	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1516959771375	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.3.70:8080/enterprise/showMenuPDS.htm"
+1516959772026	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.3.70:8080/enterprise/showMenuPDS.htm"
+1516959772272	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516959775330	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm"
+1516959775426	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm"
+1516959775426	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm"
+1516959775573	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967332"
+1516959775573	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967334"
+1516959775573	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967336"
+1516959775573	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967338"
+1516959775574	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967340"
+1516959775574	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967342"
+1516959775574	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967344"
+1516959775574	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967346"
+1516959775574	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967348"
+1516959775574	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967350"
+1516959775575	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967352"
+1516959775575	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967354"
+1516959775600	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1516959775605	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1516959775923	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516959776168	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516959778019	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1516959778132	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1516959778132	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1516959778285	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967382"
+1516959778285	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967384"
+1516959778285	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967386"
+1516959778285	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967388"
+1516959778285	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967390"
+1516959778286	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967392"
+1516959778286	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967394"
+1516959778286	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967396"
+1516959778286	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967398"
+1516959778286	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967400"
+1516959778286	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967402"
+1516959778286	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967404"
+1516959778319	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%9C%9F%E5%BB%BA%E5%B7%A5%E7%A8%8B&pager.sortField=p.uploaddate&pager.sortType=desc"
+1516959778322	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%9C%9F%E5%BB%BA%E5%B7%A5%E7%A8%8B&pager.sortField=p.uploaddate&pager.sortType=desc"
+1516959778543	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516959778774	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://192.168.3.70:8080/enterprise/pds/common/flexigrid/js/flexigrid.js, line 141: unreachable code after return statement
+1516959782806	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516959787969	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.3.70:8080/enterprise/pds/admin/recycle.htm"
+1516959788068	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.3.70:8080/enterprise/pds/admin/recycle.htm"
+1516959788068	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.3.70:8080/enterprise/pds/admin/recycle.htm"
+JavaScript warning: http://192.168.3.70:8080/enterprise/pds/common/flexigrid/js/flexigrid.js, line 141: unreachable code after return statement
+1516959788168	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.3.70:8080/enterprise/pds/admin/recycle.htm?pager.pageNo=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8&pager.sortField=p_uploaddate&pager.sortType=desc"
+1516959788180	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967457"
+1516959788180	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967459"
+1516959788180	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967461"
+1516959788180	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967463"
+1516959788180	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967465"
+1516959788198	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.3.70:8080/enterprise/pds/admin/recycle.htm?pager.pageNo=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8&pager.sortField=p_uploaddate&pager.sortType=desc"
+1516959788416	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516959788666	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://192.168.3.70:8080/enterprise/pds/common/flexigrid/js/flexigrid.js, line 141: unreachable code after return statement
+[Parent 10676, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12584, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12584, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1517187202127	geckodriver	INFO	geckodriver 0.19.1 (0000000000000000000000000000000000000000 2017-10-31)
+1517187202142	geckodriver	INFO	Listening on 127.0.0.1:49504
+1517187204295	mozrunner::runner	INFO	Running command: "D:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.hjkV50tS6WAe"
+1517187206065	Marionette	INFO	Enabled via --marionette
+[Child 6252, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6252, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1517187209069	Marionette	INFO	Listening on port 49510
+1517187209733	Marionette	WARN	TLS certificate errors will be ignored for this session
+1517187209779	Marionette	DEBUG	Register listener.js for window 4294967297
+1517187209870	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1517187209892	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1517187209892	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1517187210011	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1517187210022	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1517187210192	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1517187210209	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1517187210209	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1517187210310	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.3.70:8080/enterprise/showMenuPDS.htm"
+1517187210887	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.3.70:8080/enterprise/showMenuPDS.htm"
+1517187211141	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517187214248	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm"
+1517187214342	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm"
+1517187214343	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm"
+1517187214509	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967332"
+1517187214510	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967334"
+1517187214510	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967336"
+1517187214510	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967338"
+1517187214510	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967340"
+1517187214510	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967342"
+1517187214510	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967344"
+1517187214510	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967346"
+1517187214510	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967348"
+1517187214511	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967350"
+1517187214511	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967352"
+1517187214511	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967354"
+1517187214534	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517187214536	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517187214863	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517187215202	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517187217079	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517187217181	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517187217182	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517187217352	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967382"
+1517187217352	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967384"
+1517187217352	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967386"
+1517187217352	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967388"
+1517187217352	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967390"
+1517187217352	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967392"
+1517187217352	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967394"
+1517187217353	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967396"
+1517187217353	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967398"
+1517187217353	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967400"
+1517187217353	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967402"
+1517187217353	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967404"
+1517187217374	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%9C%9F%E5%BB%BA%E5%B7%A5%E7%A8%8B&pager.sortField=p.uploaddate&pager.sortType=desc"
+1517187217377	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%9C%9F%E5%BB%BA%E5%B7%A5%E7%A8%8B&pager.sortField=p.uploaddate&pager.sortType=desc"
+1517187217610	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517187217889	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517187221981	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://192.168.3.70:8080/enterprise/pds/common/flexigrid/js/flexigrid.js, line 141: unreachable code after return statement
+1517187227147	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.3.70:8080/enterprise/pds/admin/recycle.htm"
+1517187227250	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.3.70:8080/enterprise/pds/admin/recycle.htm"
+1517187227250	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.3.70:8080/enterprise/pds/admin/recycle.htm"
+JavaScript warning: http://192.168.3.70:8080/enterprise/pds/common/flexigrid/js/flexigrid.js, line 141: unreachable code after return statement
+1517187227334	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.3.70:8080/enterprise/pds/admin/recycle.htm?pager.pageNo=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517187227358	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967457"
+1517187227358	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967459"
+1517187227358	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967461"
+1517187227358	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967463"
+1517187227358	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967465"
+1517187227365	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.3.70:8080/enterprise/pds/admin/recycle.htm?pager.pageNo=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517187227593	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517187227904	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://192.168.3.70:8080/enterprise/pds/common/flexigrid/js/flexigrid.js, line 141: unreachable code after return statement
+1517187591347	geckodriver	INFO	geckodriver 0.19.1 (0000000000000000000000000000000000000000 2017-10-31)
+1517187591362	geckodriver	INFO	Listening on 127.0.0.1:49283
+1517187593437	mozrunner::runner	INFO	Running command: "D:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.7bqfaHtmOWJ7"
+1517187595111	Marionette	INFO	Enabled via --marionette
+[Child 6404, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6404, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1517187597063	Marionette	INFO	Listening on port 49289
+1517187597206	Marionette	WARN	TLS certificate errors will be ignored for this session
+1517187597253	Marionette	DEBUG	Register listener.js for window 4294967297
+1517187597326	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1517187597357	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1517187597357	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1517187597486	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1517187597554	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1517187597652	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1517187597670	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1517187597670	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1517187597761	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.3.70:8080/enterprise/showMenuPDS.htm"
+1517187598361	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.3.70:8080/enterprise/showMenuPDS.htm"
+1517187598638	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517187601749	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm"
+1517187601790	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm"
+1517187601790	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm"
+1517187601932	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967332"
+1517187601932	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967334"
+1517187601933	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967336"
+1517187601933	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967338"
+1517187601933	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967340"
+1517187601933	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967342"
+1517187601933	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967344"
+1517187601933	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967346"
+1517187601933	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967348"
+1517187601934	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967350"
+1517187601934	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967352"
+1517187601934	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967354"
+1517187601955	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517187601958	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517187602232	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517187602520	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517187604359	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517187604404	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517187604404	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517187604552	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967357"
+1517187604552	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967359"
+1517187604553	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967361"
+1517187604553	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967363"
+1517187604553	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967365"
+1517187604553	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967367"
+1517187604553	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967369"
+1517187604553	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967371"
+1517187604553	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967373"
+1517187604559	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967375"
+1517187604559	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967377"
+1517187604559	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967379"
+1517187604587	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%9C%9F%E5%BB%BA%E5%B7%A5%E7%A8%8B&pager.sortField=p.uploaddate&pager.sortType=desc"
+1517187604590	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%9C%9F%E5%BB%BA%E5%B7%A5%E7%A8%8B&pager.sortField=p.uploaddate&pager.sortType=desc"
+1517187604820	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517187605132	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517187609189	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://192.168.3.70:8080/enterprise/pds/common/flexigrid/js/flexigrid.js, line 141: unreachable code after return statement
+1517187614334	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.3.70:8080/enterprise/pds/admin/recycle.htm"
+1517187614378	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.3.70:8080/enterprise/pds/admin/recycle.htm"
+1517187614378	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.3.70:8080/enterprise/pds/admin/recycle.htm"
+JavaScript warning: http://192.168.3.70:8080/enterprise/pds/common/flexigrid/js/flexigrid.js, line 141: unreachable code after return statement
+1517187614466	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.3.70:8080/enterprise/pds/admin/recycle.htm?pager.pageNo=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517187614483	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967407"
+1517187614483	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967409"
+1517187614483	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967411"
+1517187614483	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967413"
+1517187614484	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967415"
+1517187614553	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.3.70:8080/enterprise/pds/admin/recycle.htm?pager.pageNo=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517187614774	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517187615007	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517187942938	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+[Child 6876, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6876, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6596, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6596, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 6256, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1517189613191	geckodriver	INFO	geckodriver 0.19.1 (0000000000000000000000000000000000000000 2017-10-31)
+1517189613198	geckodriver	INFO	Listening on 127.0.0.1:50782
+1517189615264	mozrunner::runner	INFO	Running command: "D:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.APAtdkQyQ69c"
+1517189615646	Marionette	INFO	Enabled via --marionette
+[Parent 6980, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8068, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1517189616633	Marionette	INFO	Listening on port 50789
+1517189616796	Marionette	WARN	TLS certificate errors will be ignored for this session
+1517189616847	Marionette	DEBUG	Register listener.js for window 4294967297
+1517189616925	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1517189616949	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1517189616949	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1517189617035	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1517189617091	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1517189617181	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1517189617203	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1517189617203	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1517189617305	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.3.70:8080/enterprise/showMenuPDS.htm"
+1517189617902	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.3.70:8080/enterprise/showMenuPDS.htm"
+1517189618148	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517189621265	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm"
+1517189621353	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm"
+1517189621354	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm"
+1517189621537	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967332"
+1517189621537	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967334"
+1517189621538	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967336"
+1517189621538	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967338"
+1517189621538	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967340"
+1517189621538	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967342"
+1517189621538	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967344"
+1517189621538	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967346"
+1517189621538	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967348"
+1517189621539	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967350"
+1517189621539	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967352"
+1517189621539	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967354"
+1517189621568	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517189621570	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517189621889	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517189622199	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517189624082	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517189624188	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517189624189	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517189624355	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967382"
+1517189624359	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967384"
+1517189624359	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967386"
+1517189624359	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967388"
+1517189624359	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967390"
+1517189624359	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967392"
+1517189624359	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967394"
+1517189624359	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967396"
+1517189624359	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967398"
+1517189624359	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967400"
+1517189624359	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967402"
+1517189624359	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967404"
+1517189624400	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%9C%9F%E5%BB%BA%E5%B7%A5%E7%A8%8B&pager.sortField=p.uploaddate&pager.sortType=desc"
+1517189624403	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%9C%9F%E5%BB%BA%E5%B7%A5%E7%A8%8B&pager.sortField=p.uploaddate&pager.sortType=desc"
+1517189624644	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517189624904	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517189628977	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://192.168.3.70:8080/enterprise/pds/common/flexigrid/js/flexigrid.js, line 141: unreachable code after return statement
+1517189634115	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.3.70:8080/enterprise/pds/admin/recycle.htm"
+1517189634229	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.3.70:8080/enterprise/pds/admin/recycle.htm"
+1517189634230	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.3.70:8080/enterprise/pds/admin/recycle.htm"
+JavaScript warning: http://192.168.3.70:8080/enterprise/pds/common/flexigrid/js/flexigrid.js, line 141: unreachable code after return statement
+1517189634340	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.3.70:8080/enterprise/pds/admin/recycle.htm?pager.pageNo=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517189634351	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967457"
+1517189634351	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967459"
+1517189634352	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967461"
+1517189634352	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967463"
+1517189634352	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967465"
+1517189634368	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.3.70:8080/enterprise/pds/admin/recycle.htm?pager.pageNo=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517189634588	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517189634862	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://192.168.3.70:8080/enterprise/pds/common/flexigrid/js/flexigrid.js, line 141: unreachable code after return statement
+1517191350118	geckodriver	INFO	geckodriver 0.19.1 (0000000000000000000000000000000000000000 2017-10-31)
+1517191350126	geckodriver	INFO	Listening on 127.0.0.1:53219
+1517191352215	mozrunner::runner	INFO	Running command: "D:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.5WiejX1rfx9v"
+1517191352614	Marionette	INFO	Enabled via --marionette
+1517191353661	Marionette	INFO	Listening on port 53227
+1517191353737	Marionette	WARN	TLS certificate errors will be ignored for this session
+1517191353785	Marionette	DEBUG	Register listener.js for window 4294967297
+1517191353867	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1517191353893	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1517191353893	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1517191353991	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1517191354055	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1517191354171	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1517191354192	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1517191354193	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1517191354278	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.3.70:8080/enterprise/showMenuPDS.htm"
+1517191354919	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.3.70:8080/enterprise/showMenuPDS.htm"
+1517191355169	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517191358292	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm"
+1517191358384	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm"
+1517191358385	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm"
+1517191358552	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967332"
+1517191358552	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967334"
+1517191358552	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967336"
+1517191358552	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967338"
+1517191358552	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967340"
+1517191358552	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967342"
+1517191358553	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967344"
+1517191358553	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967346"
+1517191358553	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967348"
+1517191358553	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967350"
+1517191358553	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967352"
+1517191358553	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967354"
+1517191358580	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517191358582	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517191358914	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517191359221	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517191361125	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517191361232	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517191361233	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517191361405	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967382"
+1517191361405	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967384"
+1517191361408	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967386"
+1517191361408	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967388"
+1517191361408	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967390"
+1517191361408	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967392"
+1517191361408	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967394"
+1517191361408	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967396"
+1517191361408	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967398"
+1517191361408	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967400"
+1517191361409	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967402"
+1517191361409	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967404"
+1517191361450	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%9C%9F%E5%BB%BA%E5%B7%A5%E7%A8%8B&pager.sortField=p.uploaddate&pager.sortType=desc"
+1517191361453	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%9C%9F%E5%BB%BA%E5%B7%A5%E7%A8%8B&pager.sortField=p.uploaddate&pager.sortType=desc"
+1517191361703	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517191361972	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://192.168.3.70:8080/enterprise/pds/common/flexigrid/js/flexigrid.js, line 141: unreachable code after return statement
+1517191366046	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517191371273	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.3.70:8080/enterprise/pds/admin/recycle.htm"
+1517191371375	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.3.70:8080/enterprise/pds/admin/recycle.htm"
+1517191371376	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.3.70:8080/enterprise/pds/admin/recycle.htm"
+JavaScript warning: http://192.168.3.70:8080/enterprise/pds/common/flexigrid/js/flexigrid.js, line 141: unreachable code after return statement
+1517191371488	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.3.70:8080/enterprise/pds/admin/recycle.htm?pager.pageNo=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517191371510	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967457"
+1517191371510	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967459"
+1517191371511	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967461"
+1517191371511	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967463"
+1517191371511	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967465"
+1517191371519	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.3.70:8080/enterprise/pds/admin/recycle.htm?pager.pageNo=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517191371737	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517191371989	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://192.168.3.70:8080/enterprise/pds/common/flexigrid/js/flexigrid.js, line 141: unreachable code after return statement
+[Parent 6712, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1517193009903	geckodriver	INFO	geckodriver 0.19.1 (0000000000000000000000000000000000000000 2017-10-31)
+1517193009913	geckodriver	INFO	Listening on 127.0.0.1:55975
+1517193011948	mozrunner::runner	INFO	Running command: "D:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.RyyvISRd2hwb"
+1517193012372	Marionette	INFO	Enabled via --marionette
+[Child 1216, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1517193013571	Marionette	INFO	Listening on port 55981
+[Parent 7128, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7272, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7272, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6580, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1517193733513	geckodriver	INFO	geckodriver 0.19.1 (0000000000000000000000000000000000000000 2017-10-31)
+1517193733522	geckodriver	INFO	Listening on 127.0.0.1:56515
+1517194823798	geckodriver	INFO	geckodriver 0.19.1 (0000000000000000000000000000000000000000 2017-10-31)
+1517194823806	geckodriver	INFO	Listening on 127.0.0.1:58141
+1517194825864	mozrunner::runner	INFO	Running command: "D:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.qXLNvnONPy7r"
+1517194826234	Marionette	INFO	Enabled via --marionette
+[Child 6600, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6600, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1517194827228	Marionette	INFO	Listening on port 58149
+1517194827376	Marionette	WARN	TLS certificate errors will be ignored for this session
+1517194827429	Marionette	DEBUG	Register listener.js for window 4294967297
+1517194827529	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1517194827546	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1517194827546	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1517194827651	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1517194827698	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1517194827815	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1517194827837	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1517194827837	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1517194827951	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.3.70:8080/enterprise/showMenuPDS.htm"
+1517194828559	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.3.70:8080/enterprise/showMenuPDS.htm"
+1517194828789	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517194831934	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm"
+1517194832031	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm"
+1517194832032	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm"
+1517194832186	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967332"
+1517194832186	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967334"
+1517194832187	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967336"
+1517194832187	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967338"
+1517194832187	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967340"
+1517194832187	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967342"
+1517194832187	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967344"
+1517194832188	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967346"
+1517194832188	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967348"
+1517194832188	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967350"
+1517194832188	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967352"
+1517194832188	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967354"
+1517194832217	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517194832219	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517194832537	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517194832835	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517194834724	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517194834878	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517194834879	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517194835033	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967382"
+1517194835034	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967384"
+1517194835034	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967386"
+1517194835034	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967388"
+1517194835034	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967390"
+1517194835034	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967392"
+1517194835037	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967394"
+1517194835037	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967396"
+1517194835037	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967398"
+1517194835038	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967400"
+1517194835038	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967402"
+1517194835038	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967404"
+1517194835066	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%9C%9F%E5%BB%BA%E5%B7%A5%E7%A8%8B&pager.sortField=p.uploaddate&pager.sortType=desc"
+1517194835069	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%9C%9F%E5%BB%BA%E5%B7%A5%E7%A8%8B&pager.sortField=p.uploaddate&pager.sortType=desc"
+1517194835298	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517194835578	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517194839637	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://192.168.3.70:8080/enterprise/pds/common/flexigrid/js/flexigrid.js, line 141: unreachable code after return statement
+1517194844792	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.3.70:8080/enterprise/pds/admin/recycle.htm"
+1517194844906	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.3.70:8080/enterprise/pds/admin/recycle.htm"
+1517194844907	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.3.70:8080/enterprise/pds/admin/recycle.htm"
+JavaScript warning: http://192.168.3.70:8080/enterprise/pds/common/flexigrid/js/flexigrid.js, line 141: unreachable code after return statement
+1517194845010	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.3.70:8080/enterprise/pds/admin/recycle.htm?pager.pageNo=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517194845032	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967457"
+1517194845032	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967459"
+1517194845032	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967461"
+1517194845033	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967463"
+1517194845033	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967465"
+1517194845041	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.3.70:8080/enterprise/pds/admin/recycle.htm?pager.pageNo=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517194845255	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517194845531	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://192.168.3.70:8080/enterprise/pds/common/flexigrid/js/flexigrid.js, line 141: unreachable code after return statement
+[Child 1228, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1228, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1517195980199	geckodriver	INFO	geckodriver 0.19.1 (0000000000000000000000000000000000000000 2017-10-31)
+1517195980207	geckodriver	INFO	Listening on 127.0.0.1:60444
+1517195982222	mozrunner::runner	INFO	Running command: "D:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.fC5VBHs29OPL"
+1517195982606	Marionette	INFO	Enabled via --marionette
+[Child 10880, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10880, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1517195983883	Marionette	INFO	Listening on port 60453
+1517195984233	Marionette	WARN	TLS certificate errors will be ignored for this session
+1517195984292	Marionette	DEBUG	Register listener.js for window 4294967297
+1517195984378	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1517195984398	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1517195984398	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1517195984495	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1517195984557	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1517195984662	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1517195984681	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1517195984681	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1517195984800	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.3.70:8080/enterprise/showMenuPDS.htm"
+1517195985417	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.3.70:8080/enterprise/showMenuPDS.htm"
+1517195985657	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517195988710	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm"
+1517195988795	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm"
+1517195988795	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm"
+1517195989005	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967332"
+1517195989005	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967334"
+1517195989005	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967336"
+1517195989005	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967338"
+1517195989005	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967340"
+1517195989005	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967342"
+1517195989005	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967344"
+1517195989006	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967346"
+1517195989006	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967348"
+1517195989006	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967350"
+1517195989006	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967352"
+1517195989006	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967354"
+1517195989029	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517195989031	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517195989267	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517195989512	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517195991363	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517195991461	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517195991461	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517195991608	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967382"
+1517195991608	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967384"
+1517195991608	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967386"
+1517195991608	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967388"
+1517195991609	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967390"
+1517195991609	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967392"
+1517195991609	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967394"
+1517195991609	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967396"
+1517195991609	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967398"
+1517195991609	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967400"
+1517195991610	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967402"
+1517195991610	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967404"
+1517195991641	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%9C%9F%E5%BB%BA%E5%B7%A5%E7%A8%8B&pager.sortField=p.uploaddate&pager.sortType=desc"
+1517195991643	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%9C%9F%E5%BB%BA%E5%B7%A5%E7%A8%8B&pager.sortField=p.uploaddate&pager.sortType=desc"
+1517195991866	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517195992104	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://192.168.3.70:8080/enterprise/pds/common/flexigrid/js/flexigrid.js, line 141: unreachable code after return statement
+1517195996129	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517196001279	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.3.70:8080/enterprise/pds/admin/recycle.htm"
+1517196001376	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.3.70:8080/enterprise/pds/admin/recycle.htm"
+1517196001376	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.3.70:8080/enterprise/pds/admin/recycle.htm"
+JavaScript warning: http://192.168.3.70:8080/enterprise/pds/common/flexigrid/js/flexigrid.js, line 141: unreachable code after return statement
+1517196001461	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.3.70:8080/enterprise/pds/admin/recycle.htm?pager.pageNo=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517196001485	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967457"
+1517196001485	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967459"
+1517196001486	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967461"
+1517196001486	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967463"
+1517196001486	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967465"
+1517196001559	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.3.70:8080/enterprise/pds/admin/recycle.htm?pager.pageNo=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517196001777	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517196002003	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://192.168.3.70:8080/enterprise/pds/common/flexigrid/js/flexigrid.js, line 141: unreachable code after return statement
+1517306327142	geckodriver	INFO	geckodriver 0.19.1 (0000000000000000000000000000000000000000 2017-10-31)
+1517306327156	geckodriver	INFO	Listening on 127.0.0.1:57757
+1517306329128	mozrunner::runner	INFO	Running command: "D:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.TRRWP0nlsCHH"
+1517306330573	Marionette	INFO	Enabled via --marionette
+[Child 8568, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8568, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1517306332006	Marionette	INFO	Listening on port 57763
+1517306332253	Marionette	WARN	TLS certificate errors will be ignored for this session
+1517306332304	Marionette	DEBUG	Register listener.js for window 4294967297
+1517306332414	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1517306332437	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1517306332437	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1517306332603	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1517306332661	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1517306332802	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1517306332837	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1517306332837	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1517306332922	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.3.70:8080/enterprise/showMenuPDS.htm"
+1517306333562	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.3.70:8080/enterprise/showMenuPDS.htm"
+1517306333803	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517306336855	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm"
+1517306336942	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm"
+1517306336942	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm"
+1517306337084	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967332"
+1517306337084	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967334"
+1517306337084	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967336"
+1517306337085	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967338"
+1517306337085	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967340"
+1517306337085	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967342"
+1517306337085	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967344"
+1517306337085	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967346"
+1517306337085	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967348"
+1517306337085	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967350"
+1517306337086	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967352"
+1517306337086	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967354"
+1517306337111	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517306337113	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517306337423	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517306337696	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517306339544	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517306339646	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517306339646	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517306339791	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967382"
+1517306339791	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967384"
+1517306339791	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967386"
+1517306339791	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967388"
+1517306339791	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967390"
+1517306339791	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967392"
+1517306339791	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967394"
+1517306339792	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967396"
+1517306339792	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967398"
+1517306339792	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967400"
+1517306339792	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967402"
+1517306339792	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967404"
+1517306339825	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%9C%9F%E5%BB%BA%E5%B7%A5%E7%A8%8B&pager.sortField=p.uploaddate&pager.sortType=desc"
+1517306339827	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%9C%9F%E5%BB%BA%E5%B7%A5%E7%A8%8B&pager.sortField=p.uploaddate&pager.sortType=desc"
+1517306340054	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517306340280	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517306344308	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://192.168.3.70:8080/enterprise/pds/common/flexigrid/js/flexigrid.js, line 141: unreachable code after return statement
+1517306349383	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.3.70:8080/enterprise/pds/admin/recycle.htm"
+1517306349490	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.3.70:8080/enterprise/pds/admin/recycle.htm"
+1517306349490	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.3.70:8080/enterprise/pds/admin/recycle.htm"
+JavaScript warning: http://192.168.3.70:8080/enterprise/pds/common/flexigrid/js/flexigrid.js, line 141: unreachable code after return statement
+1517306349573	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.3.70:8080/enterprise/pds/admin/recycle.htm?pager.pageNo=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517306349597	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967457"
+1517306349597	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967459"
+1517306349597	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967461"
+1517306349597	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967463"
+1517306349597	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967465"
+1517306349653	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.3.70:8080/enterprise/pds/admin/recycle.htm?pager.pageNo=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517306349870	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517306350095	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://192.168.3.70:8080/enterprise/pds/common/flexigrid/js/flexigrid.js, line 141: unreachable code after return statement
+[Child 9144, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1517447291519	geckodriver	INFO	geckodriver 0.19.1 (0000000000000000000000000000000000000000 2017-10-31)
+1517447291558	geckodriver	INFO	Listening on 127.0.0.1:50010
+1517447293601	mozrunner::runner	INFO	Running command: "D:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.eruImbvczQZo"
+1517447294167	Marionette	INFO	Enabled via --marionette
+[Parent 6648, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1517447295344	Marionette	INFO	Listening on port 50016
+1517447295620	Marionette	WARN	TLS certificate errors will be ignored for this session
+1517447295662	Marionette	DEBUG	Register listener.js for window 4294967297
+1517447295741	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1517447295760	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1517447295760	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1517447295862	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1517447295928	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1517447296024	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1517447296043	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1517447296043	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1517447296134	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.3.70:8080/enterprise/showMenuPDS.htm"
+1517447296802	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.3.70:8080/enterprise/showMenuPDS.htm"
+1517447297058	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517447300191	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm"
+1517447300312	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm"
+1517447300313	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm"
+1517447300544	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967332"
+1517447300544	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967334"
+1517447300544	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967336"
+1517447300545	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967338"
+1517447300545	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967340"
+1517447300545	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967342"
+1517447300545	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967344"
+1517447300545	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967346"
+1517447300545	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967348"
+1517447300546	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967350"
+1517447300546	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967352"
+1517447300546	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967354"
+1517447300569	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517447300571	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517447300791	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517447301110	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517447302989	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517447303150	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517447303151	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517447303322	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967382"
+1517447303322	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967384"
+1517447303322	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967386"
+1517447303322	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967388"
+1517447303322	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967390"
+1517447303322	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967392"
+1517447303322	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967394"
+1517447303322	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967396"
+1517447303323	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967398"
+1517447303323	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967400"
+1517447303323	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967402"
+1517447303323	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967404"
+1517447303350	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%9C%9F%E5%BB%BA%E5%B7%A5%E7%A8%8B&pager.sortField=p.uploaddate&pager.sortType=desc"
+1517447303353	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%9C%9F%E5%BB%BA%E5%B7%A5%E7%A8%8B&pager.sortField=p.uploaddate&pager.sortType=desc"
+1517447303579	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517447303862	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517447307917	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://192.168.3.70:8080/enterprise/pds/common/flexigrid/js/flexigrid.js, line 141: unreachable code after return statement
+1517447313062	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.3.70:8080/enterprise/pds/admin/recycle.htm"
+1517447313193	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.3.70:8080/enterprise/pds/admin/recycle.htm"
+1517447313195	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.3.70:8080/enterprise/pds/admin/recycle.htm"
+JavaScript warning: http://192.168.3.70:8080/enterprise/pds/common/flexigrid/js/flexigrid.js, line 141: unreachable code after return statement
+1517447313288	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.3.70:8080/enterprise/pds/admin/recycle.htm?pager.pageNo=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517447313306	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967457"
+1517447313306	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967459"
+1517447313306	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967461"
+1517447313306	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967463"
+1517447313307	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967465"
+1517447313314	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.3.70:8080/enterprise/pds/admin/recycle.htm?pager.pageNo=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517447313536	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517447313811	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://192.168.3.70:8080/enterprise/pds/common/flexigrid/js/flexigrid.js, line 141: unreachable code after return statement
+1517534349613	geckodriver	INFO	geckodriver 0.19.1 (0000000000000000000000000000000000000000 2017-10-31)
+1517534349652	geckodriver	INFO	Listening on 127.0.0.1:50522
+1517534351758	mozrunner::runner	INFO	Running command: "D:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.CBbAQjhio9Uv"
+1517534353317	Marionette	INFO	Enabled via --marionette
+[Parent 7360, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1517534354791	Marionette	INFO	Listening on port 50529
+1517534354892	Marionette	WARN	TLS certificate errors will be ignored for this session
+1517534354939	Marionette	DEBUG	Register listener.js for window 4294967297
+1517534355021	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1517534355747	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1517534355748	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1517534355851	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1517534355880	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1517534356080	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1517534356936	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1517534356937	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1517534357056	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.3.70:8080/enterprise/showMenuPDS.htm"
+1517534358275	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.3.70:8080/enterprise/showMenuPDS.htm"
+1517534358505	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517534361635	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm"
+1517534361760	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm"
+1517534361761	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm"
+1517534361936	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967332"
+1517534361936	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967334"
+1517534361936	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967336"
+1517534361936	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967338"
+1517534361936	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967340"
+1517534361936	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967342"
+1517534361937	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967344"
+1517534361937	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967346"
+1517534361937	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967348"
+1517534361937	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967350"
+1517534361937	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967352"
+1517534361937	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967354"
+1517534361977	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517534361979	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517534362203	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517534362524	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517534364432	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517534364549	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517534364550	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517534364715	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967382"
+1517534364715	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967384"
+1517534364715	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967386"
+1517534364716	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967388"
+1517534364716	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967390"
+1517534364716	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967392"
+1517534364716	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967394"
+1517534364716	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967396"
+1517534364716	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967398"
+1517534364716	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967400"
+1517534364716	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967402"
+1517534364717	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967404"
+1517534364741	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%9C%9F%E5%BB%BA%E5%B7%A5%E7%A8%8B&pager.sortField=p.uploaddate&pager.sortType=desc"
+1517534364742	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%9C%9F%E5%BB%BA%E5%B7%A5%E7%A8%8B&pager.sortField=p.uploaddate&pager.sortType=desc"
+1517534364964	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517534365217	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517534369304	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://192.168.3.70:8080/enterprise/pds/common/flexigrid/js/flexigrid.js, line 141: unreachable code after return statement
+JavaScript warning: http://192.168.3.70:8080/enterprise/pds/common/flexigrid/js/flexigrid.js, line 141: unreachable code after return statement
+JavaScript warning: http://192.168.3.70:8080/enterprise/pds/common/flexigrid/js/flexigrid.js, line 141: unreachable code after return statement
+[Parent 7360, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8264, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 660, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 660, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1517535620788	geckodriver	INFO	geckodriver 0.19.1 (0000000000000000000000000000000000000000 2017-10-31)
+1517535620798	geckodriver	INFO	Listening on 127.0.0.1:52159
+1517535622854	mozrunner::runner	INFO	Running command: "D:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.GO38ksMoR2yV"
+1517535623256	Marionette	INFO	Enabled via --marionette
+[Child 9752, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9752, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1517535624385	Marionette	INFO	Listening on port 52167
+1517535624866	Marionette	WARN	TLS certificate errors will be ignored for this session
+1517535624928	Marionette	DEBUG	Register listener.js for window 4294967297
+1517535625033	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1517535625055	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1517535625055	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1517535625143	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1517535625187	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1517535625295	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1517535625324	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1517535625324	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.3.70:8080/enterprise/loginPDS.htm"
+1517535625430	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.3.70:8080/enterprise/showMenuPDS.htm"
+1517535626060	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.3.70:8080/enterprise/showMenuPDS.htm"
+1517535626311	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517535629421	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm"
+1517535629510	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm"
+1517535629511	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm"
+1517535629679	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967332"
+1517535629679	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967334"
+1517535629680	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967336"
+1517535629680	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967338"
+1517535629680	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967340"
+1517535629680	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967342"
+1517535629680	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967344"
+1517535629681	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967346"
+1517535629681	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967348"
+1517535629681	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967350"
+1517535629681	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967352"
+1517535629681	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967354"
+1517535629708	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517535629710	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517535630044	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517535630304	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517535632197	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517535632298	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517535632299	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%AE%89%E8%A3%85%E5%B7%A5%E7%A8%8B&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517535632442	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967382"
+1517535632442	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967384"
+1517535632443	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967386"
+1517535632443	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967388"
+1517535632443	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967390"
+1517535632443	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967392"
+1517535632443	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967394"
+1517535632443	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967396"
+1517535632443	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967398"
+1517535632444	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967400"
+1517535632444	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967402"
+1517535632444	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967404"
+1517535632475	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%9C%9F%E5%BB%BA%E5%B7%A5%E7%A8%8B&pager.sortField=p.uploaddate&pager.sortType=desc"
+1517535632477	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.3.70:8080/enterprise/pds/admin/buildingProject.htm?pager.pageNo=1&param.verMark=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8%E5%9C%9F%E5%BB%BA%E5%B7%A5%E7%A8%8B&pager.sortField=p.uploaddate&pager.sortType=desc"
+1517535632707	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517535632990	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://192.168.3.70:8080/enterprise/pds/common/flexigrid/js/flexigrid.js, line 141: unreachable code after return statement
+1517535637149	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517535642338	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.3.70:8080/enterprise/pds/admin/recycle.htm"
+1517535642448	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.3.70:8080/enterprise/pds/admin/recycle.htm"
+1517535642450	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.3.70:8080/enterprise/pds/admin/recycle.htm"
+JavaScript warning: http://192.168.3.70:8080/enterprise/pds/common/flexigrid/js/flexigrid.js, line 141: unreachable code after return statement
+1517535642574	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.3.70:8080/enterprise/pds/admin/recycle.htm?pager.pageNo=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517535642595	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967457"
+1517535642595	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967459"
+1517535642595	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967461"
+1517535642595	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967463"
+1517535642595	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967465"
+1517535642605	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.3.70:8080/enterprise/pds/admin/recycle.htm?pager.pageNo=1&param.condition=%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E7%94%A8&pager.sortField=p_uploaddate&pager.sortType=desc"
+1517535642827	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1517535643103	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://192.168.3.70:8080/enterprise/pds/common/flexigrid/js/flexigrid.js, line 141: unreachable code after return statement
+[Parent 7228, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10192, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346

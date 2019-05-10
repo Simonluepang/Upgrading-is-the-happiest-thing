@@ -1,0 +1,9 @@
+模块名,接口名,预期时间(ms),实际时间（ms）
+photoAlbum_controller,addAlbum,10,120.861
+photoAlbum_controller,addAlbum,10,137.855
+photoAlbum_controller,addAlbum,10,155.92
+photoAlbum_controller,addAlbum,10,199.26
+photoAlbum_controller,addAlbum,10,118.953
+photoAlbum_controller,addAlbum,10,104.99
+photoAlbum_controller,addAlbum,10,126.01
+photoAlbum_controller,addAlbum,10,113.47

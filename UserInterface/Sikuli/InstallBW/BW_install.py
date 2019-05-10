@@ -1,0 +1,56 @@
+# coding = utf-8
+def install():
+	wait("1519710699934.png")
+	type('n',KEY_ALT)
+	wait(1)
+	wait("1519710722644.png")
+	click("1519708144757.png")
+	type('n',KEY_ALT)
+	wait("1519710742365.png",1)
+	type('n',KEY_ALT)
+	wait("1519710766236.png",1)
+	click("1519708220021.png")
+	wait("1519708243397.png",1)
+	click(Pattern("1519708255773.png").similar(0.85))
+	wait(20)
+	wait("1519708289320.png")
+	click(Pattern("1519708302557.png").similar(0.85))
+
+def uninstall():
+	wait("1519710817102.png")
+	type('n',KEY_ALT)
+	wait(15)
+	wait("1519710860013.png")
+	click("1519708074973.png")
+	wait("1519694875975.png")
+
+def check():
+	openApp("C:\Luban PDS\Luban Works\shell\PDSShell.exe")
+	wait("1519709042926.png")
+	click("1519709068518.png")
+	wait("1519709101686.png", 8)
+	click("1519709230149.png")
+	wait("1519709257005.png", 1)
+	click("1519709271103.png")
+
+add = input(u"请输入安装包的名称")
+observe(FOREVER)
+Region(0,0,1920,1080)
+find("1519694738425.png")
+doubleClick("1519694738425.png")
+wait("1519694875975.png")
+paste("1519694895991.png", "D:/FTPdownload/" + add + ".exe")
+type(Key.ENTER)
+wait(2)
+if exists("1519710817102.png"):
+	onAppear("1519710817102.png", uninstall())
+	paste("1519694895991.png", "D:/FTPdownload/" + add + ".exe")
+	type(Key.ENTER)
+	wait(2)
+	install()
+elif exists("1519710699934.png"):
+	onAppear("1519710699934.png", install())
+	
+wait(5)
+#check()
+stopObserver()

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Config>
+	<!--父节点为元素操纵的类型，Function_name为元素名称（需保持唯一性），Element_location为对应元素的定位路径 -->
+	
+	<FUNCTION_CLICK_BY_XPATH Chinese_Name="最大化窗口"  Function_name="Maximize_Window" Element_location='//*[@id="w-max"]'/>
+	<FUNCTION_CLICK_BY_XPATH Chinese_Name="工程管理"  Function_name="ProjectManage" Element_location='/html/body/div[1]/div[1]/header/div/div[2]/div/a[1]/i'/>
+	<FUNCTION_CLICK_BY_XPATH Chinese_Name="合同管理"  Function_name="ContractManage" Element_location='/html/body/div[1]/div[1]/article/section/div[1]/a[1]/span'/>
+	<FUNCTION_CLICK_BY_XPATH Chinese_Name="切换合同类型下拉框"  Function_name="switch_ContractType" Element_location='//*[@id="menu1"]/span[2]'/>
+	<FUNCTION_CLICK_BY_XPATH Chinese_Name="施工合同"  Function_name="ConstructionContract" Element_location='//*[@id="dropdown-menu1"]/li[1]/a'/>
+	<FUNCTION_CLICK_BY_XPATH Chinese_Name="新增施工合同"  Function_name="create_ConstructModal" Element_location='//*[@id="createConstructModal"]'/>
+	<FUNCTION_CLICK_BY_XPATH Chinese_Name="编辑合同"  Function_name="edit_Contract" Element_location='//*[@id="edit-contract"]'/>
+	<FUNCTION_CLICK_BY_XPATH Chinese_Name="保存工程"  Function_name="save_Contract" Element_location='/html/body/div[1]/div/div/div[1]/div[3]/div[1]/button'/>
+	<FUNCTION_CLICK_BY_XPATH Chinese_Name="删除合同"  Function_name="delete_Contract" Element_location='//*[@id="delete-contract"]'/>
+	
+	<FUNCTION_CLICK_BY_CLASS_NAME Chinese_Name="确定删除合同" Function_name="Enter_DeleteContract" Element_location='layui-layer-btn0'/>
+	<FUNCTION_CLICK_BY_CLASS_NAME Chinese_Name="取消删除合同" Function_name="Cancel_DeleteContrat" Element_location='layui-layer-btn1'/>
+	
+	<FUNCTION_SEND Chinese_Name="合同编号"  Function_name="ContractNum" Element_location='//*[@id="contractNum"]'/>
+	<FUNCTION_SEND Chinese_Name="合同金额"  Function_name="ContractAmount" Element_location='//*[@id="contractAmount"]'/>
+	<FUNCTION_SEND Chinese_Name="暂列金额"  Function_name="ProvisionalSum" Element_location='//*[@id="provisionalSum"]	'/>
+	<FUNCTION_SEND Chinese_Name="建设单位"  Function_name="ConstructionUnit" Element_location='//*[@id="constructionUnit"]'/>
+	<FUNCTION_SEND Chinese_Name="施工单位"  Function_name="ExecutionUnit" Element_location='//*[@id="executionUnit"]'/>
+	<FUNCTION_SEND Chinese_Name="施工负责人"  Function_name="ConstructionManager" Element_location='//*[@id="constructionManager"]'/>
+	<FUNCTION_SEND Chinese_Name="起始桩号"  Function_name="StartStakeMark" Element_location='//*[@id="startStakeMark"]'/>
+	<FUNCTION_SEND Chinese_Name="合同段长度"  Function_name="SectionLength" Element_location='//*[@id="sectionLength"]'/>
+	<FUNCTION_SEND Chinese_Name="工期"  Function_name="Duration" Element_location='//*[@id="duration"]'/>
+	<FUNCTION_SEND Chinese_Name="标段号"  Function_name="SectionNum" Element_location='//*[@id="sectionNum"]'/>
+	<FUNCTION_SEND Chinese_Name="项目名称"  Function_name="ProjectName" Element_location='//*[@id="projectName"]'/>
+	<FUNCTION_SEND Chinese_Name="监理单位"  Function_name="SupervisionUnit" Element_location='//*[@id="supervisionUnit"]'/>
+	<FUNCTION_SEND Chinese_Name="结束桩号"  Function_name="EndStakeMark" Element_location='//*[@id="endStakeMark"]'/>
+	
+	<FUNCTION_TIME_WDIGET1 Chinese_Name="计划开工日期"  Function_name="PlanStartDate" Element_location='//*[@id="planStartDate"]'/>
+	<FUNCTION_TIME_WDIGET1 Chinese_Name="实际开工日期"  Function_name="ActualStartDate" Element_location='//*[@id="actualStartDate"]'/>
+	
+	<FUNCTION_TIME_WDIGET2 Chinese_Name="计划完工日期"  Function_name="PlanEndDate" Element_location='//*[@id="planEndDate"]'/>
+	<FUNCTION_TIME_WDIGET2 Chinese_Name="实际完工日期"  Function_name="ActualEndDate" Element_location='//*[@id="actualEndDate"]'/>
+	<FUNCTION_TIME_WDIGET2 Chinese_Name="合同签订日期"  Function_name="SignedDate" Element_location='//*[@id="signedDate"]'/>
+	
+	<FUNCTION_HINT Chinese_Name="验证合同名称"  Function_name="ContractName_hint" Element_location='//*[@id="construct"]/span'/>
+</Config>

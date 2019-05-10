@@ -1,0 +1,52 @@
+————————————————————
+
+此文件为UI自动化测试脚本专用上传文件。
+
+————————————————————
+
+
+测试信息需要更多
+{
+	"configuration":"//*[@id='app']/div/div[2]/ul/li[9]",
+	"common" : "//*[@id='app']/div/div[3]/div/div[1]/ul/li[1]",
+	"data_catalog" : "//*[@id='app']/div/div[3]/div/div[2]/div[2]/ul/li[1]",
+	"add_folder" : "//*[@id='app']/div/div[3]/div/div[2]/div[2]/div/div/div[1]/div[1]/button[1]",
+	"search_folder" : "//*[@id='app']/div/div[3]/div/div[2]/div[2]/div/div/div[1]/div[1]/div/div/div/i",
+	"edit_folder": "//*[@id='app']/div/div[3]/div/div[2]/div[2]/div/div/div[1]/div[3]/div[3]/table/tbody/tr/td[5]/div/span",
+	"success_add_folder": "//*[@id='app']/div/div[3]/div/div[2]/div[2]/div/div/div[1]/div[3]/div[3]/table/tbody/tr[1]/td[2]/div/div[2]/span[2]",
+	"success_edit_folder": "//*[@id='app']/div/div[3]/div/div[2]/div[2]/div/div/div[2]/div/div[3]/span/button[1]",
+	"delete_folder_box": "//*[@id='app']/div/div[3]/div/div[2]/div[2]/div/div/div[1]/div[3]/div[3]/table/tbody/tr/td[1]/div/label/span/span",
+	"delete_folder": "//*[@id='app']/div/div[3]/div/div[2]/div[2]/div/div/div[1]/div[1]/button[2]",
+	"success_delete": "/html/body/div[3]/div/div[3]/button[2]",
+	"label_management": "//*[@id='app']/div/div[3]/div/div[2]/div[2]/ul/li[4]",
+	"add_label": "//*[@id='app']/div/div[3]/div/div[2]/div[2]/div/div/div[1]/button[1]",
+	"success_add_label": "//*[@id='app']/div/div[3]/div/div[2]/div[2]/div/div/div[4]/div/div[3]/span/button[1]",
+	"search_label": "//*[@id='app']/div/div[3]/div/div[2]/div[2]/div/div/div[1]/div/div/i",
+	"edit_label": "//*[@id='app']/div/div[3]/div/div[2]/div[2]/div/div/div[2]/div/div[3]/table/tbody/tr[1]/td[5]/div/span",
+	"success_edit_label": "//*[@id='app']/div/div[3]/div/div[2]/div[2]/div/div/div[4]/div/div[3]/span/button[1]",
+	"delete_label_box": "//*[@id='app']/div/div[3]/div/div[2]/div[2]/div/div/div[2]/div/div[3]/table/tbody/tr/td[1]/div/label/span/span",
+	"delete_label": "//*[@id='app']/div/div[3]/div/div[2]/div[2]/div/div/div[1]/button[2]",
+	"form_management": "//*[@id='app']/div/div[3]/div/div[2]/div[2]/ul/li[5]",
+	"add_form": "//*[@id='app']/div/div[3]/div/div[2]/div[2]/div/div/div[1]/button[1]",
+	"upload_templatefile": "//*[@id='app']/div/div[3]/div/div[2]/div[2]/div/div/div[4]/div/div[2]/div[1]/div[1]/div/div[2]/div/button",
+	"success_add_form": "//*[@id='app']/div/div[3]/div/div[2]/div[2]/div/div/div[4]/div/div[3]/span/button[1]",
+	"edit_form": "//*[@id='app']/div/div[3]/div/div[2]/div[2]/div/div/div[2]/div/div[3]/table/tbody/tr/td[6]/div/span",
+	"success_edit_form": "//*[@id='app']/div/div[3]/div/div[2]/div[2]/div/div/div[4]/div/div[3]/span/button[1]",
+	"delete_form_box": "//*[@id='app']/div/div[3]/div/div[2]/div[2]/div/div/div[2]/div/div[3]/table/tbody/tr/td[1]/div/label/span/span",
+	"delete_form": "//*[@id='app']/div/div[3]/div/div[2]/div[2]/div/div/div[1]/button[2]",
+	"add_folder_name": "//*[@id='app']/div/div[3]/div/div[2]/div[2]/div/div/div[1]/div[3]/div[3]/table/tbody/tr[1]/td[2]/div/div[2]/div/input",
+	"search_folder_name": "//*[@id='app']/div/div[3]/div/div[2]/div[2]/div/div/div[1]/div[1]/div/div/div/input",
+	"edit_folder_name": "//*[@id='app']/div/div[3]/div/div[2]/div[2]/div/div/div[2]/div/div[2]/div[1]/div/div/input",
+	"add_label_name": "//*[@id='app']/div/div[3]/div/div[2]/div[2]/div/div/div[4]/div/div[2]/div/div/div/input",
+	"edit_label_name": "//*[@id='app']/div/div[3]/div/div[2]/div[2]/div/div/div[4]/div/div[2]/div/div/div/input",
+	"search_label_name": "//*[@id='app']/div/div[3]/div/div[2]/div[2]/div/div/div[1]/div/div/input",
+	"edit_template_name": "//*[@id='app']/div/div[3]/div/div[2]/div[2]/div/div/div[4]/div/div[2]/div[1]/div[2]/div/div/input",
+	"new_folder_name_hint": "//*[@id='app']/div/div[3]/div/div[2]/div[2]/div/div/div[1]/div[3]/div[3]/table/tbody/tr[1]/td[2]/div/div[1]",
+	"success_delete_folder_hint": "//*[@id='app']/div/div[3]/div/div[2]/div[2]/div/div/div[1]/div[3]/div[3]/div/span",
+	"data_catalog_hint": "//*[@id='app']/div/div[2]/ul/li[9]",
+	"new_label_name_hint": "//*[@id='app']/div/div[3]/div/div[2]/div[2]/div/div/div[2]/div/div[3]/table/tbody/tr/td[2]/div",
+	"label_hint": "//*[@id='app']/div/div[3]/div/div[2]/div[2]/div/div/div[2]/div/div[3]/div",
+	"form_hint": "//*[@id='app']/div/div[3]/div/div[2]/div[2]/div/div/div[2]/div/div[3]/table/tbody/tr/td[2]/div/div/span",
+	"success_delete_form_hint": "//*[@id='app']/div/div[3]/div/div[2]/div[2]/div/div/div[2]/div/div[3]/div",
+	"success_add_form_hint": "//*[@id='app']/div/div[3]/div/div[2]/div[2]/div/div/div[2]/div/div[3]/table/tbody/tr/td[2]/div/div"
+}
