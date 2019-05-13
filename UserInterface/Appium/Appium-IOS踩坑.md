@@ -68,10 +68,85 @@
 
 ### 8.替换appium.app中的WebdriverAgent
 
-[Facebook的无缺陷版WebdriverAgent](https://github.com/facebookarchive/WebDriverAgent)
+[Facebook的无缺陷版WebdriverAgent下载地址](https://github.com/facebookarchive/WebDriverAgent)
 
 把这个项目下载下来，放在一个不需要权限的路径里面
 
 然后使用终端cd到你存放WebDriverAgent的目录下，使用下面命令下载依赖
 
     ./Scripts/bootstrap.sh
+
+### 9.安装java以及配置JDK
+
+1.从官网上下载java
+
+[java官网下载地址](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
+
+下载完成以后一路点击继续，安装成功以后，在终端中查看java版本，以确认java正确安装成功
+
+    java -version
+
+2.配置PATH和CLASS_PATH
+
+首先打开终端terminal，在终端下打开profile文件
+
+    sudo vim /etc/profile
+
+然后输入i，进入insert模式
+
+在文件最后添加以下内容，jdk的版本号需要做更改
+
+    JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home"
+
+    CLASS_PATH="$JAVA_HOME/lib"
+
+    PATH=".:$PATH:$JAVA_HOME.bin"
+
+点击esc退出insert模式，输入 :wd! 来保存并退出profile，然后执行命令使修改的内容立即生效而不用重启
+
+    source /etc/profile
+
+测试java程序编译与运行
+
+    touch Hello.java    # 新建java文件
+
+    vim Hello.py        # 使用vim打开文件
+
+然后在文件中输入以下代码
+
+    class Hello {
+
+         public static void main(String[] args) {
+               System.out.println("Hello, world!");
+         }
+    }
+
+在终端编译该java文件
+
+    javac Hello.java
+
+执行测试程序
+
+    java Hello
+
+#### mac终端登录默认为-bash-3.2$解决办法
+
+[解决办法](https://jingyan.baidu.com/article/c74d6000c277e80f6a595d8c.html)
+
+#### mac电脑任何命令都是command not found
+
+配置路径以后，之前安装好的都无法使用了，说明mac的环境变量已经被更改了，所以输入以下代码就可以
+
+    export PATH=/usr/local/opt/coreutils/libexec/gnubin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS
+
+[解决问题地址](https://www.jianshu.com/p/1dfa8cc85548)
+
+### 10.真机安装webdriverAgent
+
+有开发者账号的情况下，可以这么做
+
+[有开发者账号的情况下真机安装webdriverAgent](https://testerhome.com/topics/7220)
+
+没有开发者账号的话就需要使用导入.p12和.mobileprovision的方法
+
+[IOS证书和描述文件的申请](http://ask.dcloud.net.cn/article/152)
