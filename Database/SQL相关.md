@@ -1,34 +1,8 @@
-Python 如何连接MySQL数据库操作
-==
+### [Python 如何连接MySQL数据库操作]()
 
-```python
-import pymysql
+### [Python 如何连接Oracle数据库操作]()
 
-# 打开数据库连接
-db = pymysql.connect("localhost","username","password","DataBaseName")
-
-# 使用cursor方法获取游标
-cursor = db.cursor()
-
-# 编写SQL语句
-sql = "select * from tablename where condition"
-
-try:
-    # 执行语句
-    cursor.execute(sql)
-    # 获取表单内容
-    results = cursor.fetchall()
-    for row in results:
-        row0 = row[0]
-        row1 = row[1]
-        print(f"{row0}+{row1}")
-except:
-    raise Exception("Error: unable to fetch data")
-    
-db.close()
-```
-
-[插入大数据，30万条数据](https://github.com/Simonluepang/Upgrading-is-the-happiest-thing/blob/master/bigTest.py)
+### [插入大数据，30万条数据](https://github.com/Simonluepang/Upgrading-is-the-happiest-thing/blob/master/bigTest.py)
 --
 使用MySQL语句中的多行插入,并且使用python中的协程
 
