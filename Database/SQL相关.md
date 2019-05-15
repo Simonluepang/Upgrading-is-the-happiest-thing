@@ -2,7 +2,7 @@
 
 ### [Python 如何连接Oracle数据库操作](https://github.com/Simonluepang/Upgrading-is-the-happiest-thing/blob/master/Database/Oracle/test_PyOracle.py)
 
-### [插入大数据，30万条数据](https://github.com/Simonluepang/Upgrading-is-the-happiest-thing/blob/master/bigTest.py)
+### [插入大数据，30万条数据](https://github.com/Simonluepang/Upgrading-is-the-happiest-thing/blob/master/Database/MySQL/bigTest.py)
 --
 使用MySQL语句中的多行插入,并且使用python中的协程
 
