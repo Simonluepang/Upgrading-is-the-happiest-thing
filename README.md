@@ -12,7 +12,7 @@
 
 ### [4.Linux相关](https://github.com/Simonluepang/Upgrading-is-the-happiest-thing/blob/master/Linux%E7%9B%B8%E5%85%B3.md)
 
-### [5.MySQL相关](https://github.com/Simonluepang/Upgrading-is-the-happiest-thing/blob/master/Database/MySQL/MySQL%E7%9B%B8%E5%85%B3.md)
+### [5.SQL相关](https://github.com/Simonluepang/Upgrading-is-the-happiest-thing/blob/master/Database/SQL%E7%9B%B8%E5%85%B3.md)
 
 ### [6.UI自动化之Selenium](https://github.com/Simonluepang/Upgrading-is-the-happiest-thing/blob/master/UserInterface/Selenium/Selenium%E7%9B%B8%E5%85%B3.md)
 

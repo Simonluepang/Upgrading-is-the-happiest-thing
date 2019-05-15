@@ -1,6 +1,6 @@
-### [Python 如何连接MySQL数据库操作]()
+### [Python 如何连接MySQL数据库操作](https://github.com/Simonluepang/Upgrading-is-the-happiest-thing/blob/master/Database/MySQL/test_PyMySQL.py)
 
-### [Python 如何连接Oracle数据库操作]()
+### [Python 如何连接Oracle数据库操作](https://github.com/Simonluepang/Upgrading-is-the-happiest-thing/blob/master/Database/Oracle/test_PyOracle.py)
 
 ### [插入大数据，30万条数据](https://github.com/Simonluepang/Upgrading-is-the-happiest-thing/blob/master/bigTest.py)
 --
