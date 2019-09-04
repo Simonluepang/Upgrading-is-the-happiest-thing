@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vue.js 模板语法</title>
+    <script src="js/vue.js"></script>
+</head>
+<style>
+    .class1{
+        background: #444;
+        color: #eee;
+    }
+</style>
+<body>
+
+<div id="text">
+    <p>{{ message }}</p>
+</div>
+
+<script>
+    new Vue({
+        el:"#text",
+        data:{
+            message:'Hello Vue.js!'
+        }
+    })
+</script>
+
+<div id="html">
+    <div v-html="html"></div>
+</div>
+<script>
+    new Vue({
+        el: "#html",
+        data:{
+           html: '<h1>菜鸟教程</h1>'
+        }
+    })
+</script>
+
+<div id="property">
+    <label for="r1">修改颜色</label><input type="checkbox" v-model="use" id="r1">
+    <br><br>
+    <div v-bind:class="{'class1':use}">
+        v-bind:class 指令
+    </div>
+</div>
+<script>
+    new Vue({
+        el:'#property',
+        data:{
+            use:false
+        }
+    })
+</script>
+
+<div id="exression">
+    {{ 5+5 }}<br>
+    {{ ok ? 'YES' : 'NO' }}<br>
+    {{ message.split('').reverse().join('') }}
+    <div v-bind:id="'list-' + id">菜鸟教程</div>
+</div>
+<script>
+    new Vue({
+        el: '#exression',
+        data:{
+            ok:true,
+            message: 'RUNOOB',
+            id:1
+        }
+    })
+</script>
+
+<div id="command">
+    <p v-if="seen">现在你看到我了</p>
+    <template v-if="ok">
+        <h1>菜鸟教程</h1>
+        <p>学的不仅是技术，更是梦想！</p>
+        <p>哈哈哈，打字辛苦啊！！！</p>
+    </template>
+</div>
+<script>
+    new Vue({
+        el: '#command',
+        data:{
+            seen:true,
+            ok:true
+        }
+    })
+</script>
+
+<div id="parameter">
+    <pre><a v-bind:href="url">菜鸟教程</a></pre>
+</div>
+<script>
+    new Vue({
+        el:'#parameter',
+        data:{
+            url:'http://www.runoob.com'
+        }
+    })
+</script>
+
+<div id="input">
+    <p>{{ message1 }}</p>
+    <input v-model="message1">
+</div>
+<script>
+    new Vue({
+        el:'#input',
+        data:{
+            message1:'Runoob!'
+        }
+    })
+</script>
+
+<div id="reverse">
+    <p>{{reversemsg}}</p>
+    <button v-on:click="reverseMessage">反转字符串</button>
+</div>
+<script>
+    new Vue({
+        el:'#reverse',
+        data:{
+            reversemsg:'Runoob!'
+        },
+        methods:{
+            reverseMessage: function() {
+                this.reversemsg = this.reversemsg.split('').reverse().join('')
+            }
+        }
+    })
+</script>
+
+<div id="filter">
+    {{ message_filter | capitalize }}
+</div>
+
+<script>
+    new Vue({
+        el: '#filter',
+        data:{
+            message_filter:'runoob'
+        },
+        filters:{
+            capitalize: function (value) {
+                if (!value) return ''
+                value = value.toString()
+                return value.charAt(0).toUpperCase() + value.slice(1)
+            }
+        }
+    })
+</script>
+<!--
+-->
+</body>
+</html>
