@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vue.js 条件与循环</title>
+    <script src="js/vue.js"></script>
+</head>
+<body>
+<div id="v-if">
+    <p v-if="seen">现在你看到我了</p>
+    <template v-if="ok">
+        <h1>菜鸟教程</h1>
+        <p>学的不仅是技术，更是梦想！</p>
+        <p>哈哈哈，打字辛苦啊！！！</p>
+    </template>
+</div>
+<script>
+    new Vue({
+        el:'#v-if',
+        data:{
+            seen:true,
+            ok:true
+        }
+    })
+</script>
+
+<div id="v-else">
+    <div v-if="Math.random() > 0.5">
+        Sorry
+    </div>
+    <div v-else>
+        Not sorry
+    </div>
+</div>
+<script>
+    new Vue({
+        el:'#v-else'
+    })
+</script>
+
+<div id="v-else-if">
+    <div v-if="type === 'A'">
+        A
+    </div>
+    <div v-else-if="type === 'B'">
+        B
+    </div>
+    <div v-else-if="type === 'C'">
+        C
+    </div>
+    <div v-else>
+        Not A/B/C
+    </div>
+</div>
+<script>
+    new Vue({
+        el:'#v-else-if',
+        data:{
+            type: 'D'
+        }
+    })
+</script>
+</body>
+</html>
