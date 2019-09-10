@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vue.js 循环语句</title>
+    <script src="js/vue.js"></script>
+</head>
+<body>
+<div id="v-for">
+    <ol>
+        <li v-for="site in sites">
+            {{ site.name }}
+        </li>
+    </ol>
+</div>
+<script>
+    new Vue({
+        el:'#v-for',
+        data:{
+            sites:[
+                { name: 'Runoob'},
+                { name: 'Google'},
+                { name: 'Taobao'}
+            ]
+        }
+    })
+</script>
+
+<div id="v-formodel">
+    <ul>
+        <template v-for="site in sites">
+            <li>{{ site.name }}</li>
+            <li>+++++++++++++++</li>
+        </template>
+    </ul>
+</div>
+<script>
+    new Vue({
+        el:'#v-formodel',
+        data:{
+            sites:[
+                { name: 'Simon'},
+                { name: 'Jack'},
+                { name: 'Bob'}
+            ]
+        }
+    })
+</script>
+
+<div id="v-forobject">
+    <ul>
+        <li v-for="value in object">
+            {{ value }}
+        </li>
+    </ul>
+</div>
+<script>
+    new Vue({
+        el:'#v-forobject',
+        data: {
+            object:{
+                name:'菜鸟教程',
+                url:'http://www.runoob.com',
+                slogan:'学的不仅是技术，更是梦想！'
+            }
+        }
+    })
+</script>
+
+<div id="v-forkeyvalue">
+    <ul>
+        <li v-for="(value,key) in object">
+            {{key}}:{{value}}
+        </li>
+    </ul>
+</div>
+<script>
+    new Vue({
+        el:'#v-forkeyvalue',
+        data:{
+            object: {
+                name:'菜鸟教程',
+                url:'http://www.runoob.com',
+                slogan:'学的不仅是技术，更是梦想！'
+            }
+        }
+    })
+</script>
+
+<div id="v-forindex">
+    <ul>
+        <li v-for="(value,key,index) in object">
+            {{index}}.{{key}} : {{value}}
+        </li>
+    </ul>
+</div>
+<script>
+    new Vue({
+        el:'#v-forindex',
+        data:{
+            object: {
+                name:'菜鸟教程',
+                url:'http://www.runoob.com',
+                slogan:'学的不仅是技术，更是梦想！'
+            }
+        }
+    })
+</script>
+
+<div id="v-fornum">
+    <ul>
+        <li v-for="n in 10">
+            {{n}}
+        </li>
+    </ul>
+</div>
+<script>
+    new Vue({
+        el:'#v-fornum'
+    })
+</script>
+</body>
+</html>

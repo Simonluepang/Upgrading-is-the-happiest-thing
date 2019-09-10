@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vue.js 样式绑定</title>
+    <script src="js/vue.js"></script>
+    <style>
+        .active {
+            width: 100px;
+            height: 100px;
+            background: green;
+        }
+    </style>
+</head>
+<body>
+<div id="app1">
+    <div v-blind:class="{active:isActive}"></div>
+</div>
+<script>
+    new Vue({
+        el:'#app1',
+        data:{
+            isActive:true
+        }
+    })
+</script>
+</body>
+</html>

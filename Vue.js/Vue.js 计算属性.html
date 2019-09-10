@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vue.js 计算属性</title>
+    <script src="js/vue.js"></script>
+</head>
+<body>
+<div id="app1">
+    {{message.split('').reverse().join('')}}
+</div>
+<script>
+    new Vue({
+        el:'#app1',
+        data:{
+            message:'Runoob!'
+        }
+    })
+</script>
+
+<div id="app2">
+    <p>原始字符串： {{message}}</p>
+    <p>计算后反转字符串： {{reversedMessage}}</p>
+    <p>使用方法后反转字符串： {{reversedMessage2()}}</p>
+</div>
+<script>
+    var vm = new Vue({
+        el:'#app2',
+        data:{
+            message:'Runoob!'
+        },
+        computed:{
+            //计算属性的getter
+            reversedMessage:function () {
+                // 'this'指向vm实例
+                return this.message.split('').reverse().join('')
+            }
+        },
+        methods:{
+            reversedMessage2: function () {
+                return this.message.split('').reverse().join('')
+            }
+        }
+    })
+</script>
+
+<div id="app3">
+    <p>{{site}}</p>
+</div>
+<script>
+    var vm = new Vue({
+        el:'#app3',
+        data:{
+            name:'Google',
+            url:'http://www.google.com'
+        },
+        computed: {
+            site:{
+                // getter
+                get: function() {
+                    // *this到底指代的是什么东西？
+                    return this.name + ' ' + this.url
+                },
+                // setter
+                set: function(newValue) {
+                    var names = newValue.split(' ')
+                    this.name = names[0]
+                    this.url = names[name.lenth - 1]
+                }
+            }
+        }
+    })
+    // 调用setter，vm.name和vm.url也会被对应更新
+    // 如何读取到后面的url？
+    vm.site = '菜鸟教程 http://www.runoob.com';
+    document.write('name:' + vm.name);
+    document.write('<br>');
+    document.write('url:' + vm.url);
+</script>
+</body>
+</html>
