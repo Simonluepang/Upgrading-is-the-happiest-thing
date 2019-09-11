@@ -1,0 +1,30 @@
+@mixin PreSpace($value,$n,$name){
+    .#{$n}-#{$value}{
+        #{$name}: #{$value}px;
+    }
+    .#{$n}l-#{$value}{
+        #{$name}-left: #{$value}px;
+    }
+    .#{$n}r-#{$value}{
+        #{$name}-right: #{$value}px;
+    }
+    .#{$n}t-#{$value}{
+        #{$name}-top: #{$value}px;
+    }
+    .#{$n}b-#{$value}{
+        #{$name}-bottom: #{$value}px;
+    }
+}
+
+@include PreSpace (5,'m','margin');
+@include PreSpace (10,'m','margin');
+@include PreSpace (15,'m','margin');
+@include PreSpace (20,'m','margin');
+@include PreSpace (30,'m','margin');
+
+@include PreSpace (5,'p','padding');
+@include PreSpace (10,'p','padding');
+@include PreSpace (15,'p','padding');
+@include PreSpace (20,'p','padding');
+@include PreSpace (30,'p','padding');
+

@@ -1,0 +1,133 @@
+@import './flex';
+@import './space';
+@import './font';
+
+html,body,*{
+    padding:0;
+    margin:0;
+}
+
+.b-box{
+    box-sizing: border-box;
+}
+
+.ab{
+    position: absolute;
+}
+.re{
+    position: relative;
+}
+html,body{
+    padding: 0;
+    margin:0;
+}
+.page-main{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+input[type=text]{line-height: 21px;width:100%;box-sizing: border-box;
+    height: 30px;padding: 0 15px;
+    -webkit-user-select: text;border: 1px solid #dfdfdf;border-radius: 3px;outline: 0;
+    background-color: #fff;-webkit-appearance: none;color:#494953;}
+input[type=number]{line-height: 21px;width: 100px;height: 40px;padding: 0 15px;
+    -webkit-user-select: text;border: 1px solid #dfdfdf;border-radius: 3px;outline: 0;
+    background-color: #fff;-webkit-appearance: none;color:#494953;
+    -moz-appearance:textfield;}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+textarea{width: 100%;min-height: 40px;-webkit-user-select: text;border: 1px solid #dfdfdf;
+    border-radius: 3px;outline: 0;background-color: #fff;-webkit-appearance: none;resize:none;box-sizing: border-box;
+    overflow: hidden;word-wrap: break-word;padding: 5px 10px}
+div[contenteditable]{
+    min-width: 5px;
+    &:focus{
+        outline: none;
+    }
+}
+.addbtn{
+    width: auto;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    color:#fff;
+    background: #FF6E95;
+    cursor: pointer;
+}
+
+.search-input{
+    background:#FFFFFF url(../assets/img/operate/search.png) left 8px center no-repeat;
+    padding-left:30px !important;
+}
+.drop-input{
+    background:#FFFFFF url(../assets/img/operate/xialahui.png) right 8px center no-repeat;
+    padding-right:30px !important;
+}
+.div-input{
+    line-height: 21px;width:100%;box-sizing: border-box;
+    height: auto;padding: 0 15px;min-height: 30px;
+    -webkit-user-select: text;border: 1px solid #dfdfdf;border-radius: 3px;outline: 0;
+    background-color: #fff;-webkit-appearance: none;color:#494953;
+    display: flex;align-items: center;
+    word-break: break-all;
+}
+.cursorp{
+    cursor: pointer;
+}
+
+.place{
+    font-size: 12px;
+    color:#b1babf;
+}
+:-moz-placeholder {
+    font-size: 12px;
+    color: #b1babf;
+    opacity: 1;
+}
+::-moz-placeholder {
+    font-size: 12px;
+    color: #b1babf;
+    opacity: 1;
+}
+input:-ms-input-placeholder {
+    font-size: 12px;
+    color: #b1babf;
+    opacity: 1;
+}
+input::-webkit-input-placeholder {
+    font-size: 12px;
+    color: #b1babf;
+    opacity: 1;
+}
+textarea:-ms-input-placeholder {
+    font-size: 12px;
+    color: #b1babf;
+    opacity: 1;
+}
+textarea::-webkit-input-placeholder {
+    font-size: 12px;
+    color: #b1babf;
+    opacity: 1;
+}
+.text-input{
+    width: 100% !important;
+    height: 98% !important;
+    border: none !important;
+}
+.myscroll{overflow-y: auto;box-sizing: border-box}
+/*滚动条轨道背景(默认在PC端设置)*/
+.myscroll::-webkit-scrollbar-track{background-color: transparent;border:none;}
+/*滚动条轨道宽度 (默认在PC端设置)*/
+.myscroll::-webkit-scrollbar{width: 6px;border:none;}
+/*滚动条游标 (默认在PC端设置)*/
+.myscroll::-webkit-scrollbar-thumb{border-radius: 6px;background-color: rgba(0,0,0,0.1);border:none;}
+/*滚动条游标鼠标经过的颜色变化 (默认在PC端设置)*/
+.myscroll::-webkit-scrollbar-thumb:hover{background-color: #aaa;border:none;}

@@ -1,0 +1,31 @@
+.subtable {
+  width: 100%;
+  border-top: 1px solid #e6e7ef;
+  border-left: 1px solid #e6e7ef;
+}
+
+.subtable td {
+  height: 40px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #e6e7ef;
+  border-right: 1px solid #e6e7ef;
+  padding: 0 10px;
+}
+
+.subtable .td-title {
+  width: 110px;
+  text-align: center;
+  color: #878798;
+  font-size: 14px;
+}
+.import-flg{
+  color:#DC315F;
+  font-size: 14px;
+}
+.multi-text{
+  height: 90px !important;
+}
+.auto-height{
+  min-height: 80px !important;
+  height: auto !important;
+}

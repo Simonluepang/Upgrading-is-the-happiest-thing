@@ -1,0 +1,236 @@
+[
+    {
+        "ctl_id": "58",
+        "ctl_name": "护理等级test",
+        "ctl_type": "drop",
+        "ctl_type_attr": "drop_mult",
+        "data_code": "DE06.00.211.00",
+        "data_innercode": "NS.YDHL.DE.0200000658",
+        "data_name": "护理等级代码",
+        "data_value": [
+            {
+                "isdefault": false,
+                "isenable": true,
+                "ctl_id": "58_2",
+                "val_code": "2",
+                "val_str": "一级护理",
+                "val_score": "",
+                "val_mark": null,
+                "val_order": 0
+            },
+            {
+                "isdefault": false,
+                "isenable": true,
+                "ctl_id": "58_3",
+                "val_code": "3",
+                "val_str": "二级护理",
+                "val_score": "",
+                "val_mark": null,
+                "val_order": 0
+            }
+        ],
+        "default_value": null,
+        "default_value_script": null,
+        "default_type": null,
+        "data_required": "False",
+        "mobile_type": "专科护理",
+        "link_ctl": [],
+        "data_script": null,
+        "link_type": "checkbox",
+        "ctl_remark": "",
+        "value_id": "C585E4073EAF4BF2B8C537C7AE8CCC7B",
+        "cellname": null,
+        "internal_version": "V1",
+        "dataelement_version": "V1.0",
+        "max_length": "1",
+        "max_value": null,
+        "min_value": null,
+        "sort_num": 58,
+        "appctlname": "护理等级test",
+        "viewhidden": false,
+        "ispublicctrl": false,
+        "attrextends": {}
+    },
+    {
+        "ctl_id": "59",
+        "ctl_name": "一级护理1",
+        "ctl_type": "drop",
+        "ctl_type_attr": "drop_mult",
+        "data_code": "DE06.00.211.00",
+        "data_innercode": "NS.YDHL.DE.0200000658",
+        "data_name": "护理等级代码",
+        "data_value": [
+            {
+                "isdefault": false,
+                "isenable": true,
+                "ctl_id": "59_2",
+                "val_code": "2",
+                "val_str": "一级护理",
+                "val_score": null,
+                "val_mark": null,
+                "val_order": 0
+            }
+        ],
+        "default_value": null,
+        "default_value_script": null,
+        "default_type": null,
+        "data_required": "False",
+        "mobile_type": "专科护理",
+        "link_ctl": [
+            "58"
+        ],
+        "data_script": null,
+        "link_type": "checkbox",
+        "ctl_remark": "",
+        "value_id": "C585E4073EAF4BF2B8C537C7AE8CCC7B",
+        "cellname": null,
+        "internal_version": "V1",
+        "dataelement_version": "V1.0",
+        "max_length": "1",
+        "max_value": null,
+        "min_value": null,
+        "sort_num": 59,
+        "appctlname": "一级护理1",
+        "viewhidden": false,
+        "ispublicctrl": false,
+        "attrextends": {
+            "showbylinkctrl": "一级护理"
+        }
+    },
+    {
+        "ctl_id": "60",
+        "ctl_name": "一级护理2",
+        "ctl_type": "drop",
+        "ctl_type_attr": "drop_mult",
+        "data_code": "DE06.00.211.00",
+        "data_innercode": "NS.YDHL.DE.0200000658",
+        "data_name": "护理等级代码",
+        "data_value": [
+            {
+                "isdefault": false,
+                "isenable": true,
+                "ctl_id": "60_2",
+                "val_code": "2",
+                "val_str": "一级护理",
+                "val_score": null,
+                "val_mark": null,
+                "val_order": 0
+            }
+        ],
+        "default_value": null,
+        "default_value_script": null,
+        "default_type": null,
+        "data_required": "False",
+        "mobile_type": "专科护理",
+        "link_ctl": [
+            "58"
+        ],
+        "data_script": null,
+        "link_type": "checkbox",
+        "ctl_remark": "",
+        "value_id": "C585E4073EAF4BF2B8C537C7AE8CCC7B",
+        "cellname": null,
+        "internal_version": "V1",
+        "dataelement_version": "V1.0",
+        "max_length": "1",
+        "max_value": null,
+        "min_value": null,
+        "sort_num": 60,
+        "appctlname": "一级护理2",
+        "viewhidden": false,
+        "ispublicctrl": false,
+        "attrextends": {
+            "showbylinkctrl": "一级护理"
+        }
+    },
+    {
+        "ctl_id": "61",
+        "ctl_name": "二级护理1",
+        "ctl_type": "drop",
+        "ctl_type_attr": "drop_single",
+        "data_code": "DE06.00.211.00",
+        "data_innercode": "NS.YDHL.DE.0200000658",
+        "data_name": "护理等级代码",
+        "data_value": [
+            {
+                "isdefault": false,
+                "isenable": true,
+                "ctl_id": "61_3",
+                "val_code": "3",
+                "val_str": "二级护理",
+                "val_score": null,
+                "val_mark": null,
+                "val_order": 0
+            }
+        ],
+        "default_value": null,
+        "default_value_script": null,
+        "default_type": null,
+        "data_required": "False",
+        "mobile_type": "专科护理",
+        "link_ctl": [
+            "58"
+        ],
+        "data_script": null,
+        "link_type": "radiobutton",
+        "ctl_remark": "",
+        "value_id": "C585E4073EAF4BF2B8C537C7AE8CCC7B",
+        "cellname": null,
+        "internal_version": "V1",
+        "dataelement_version": "V1.0",
+        "max_length": "1",
+        "max_value": null,
+        "min_value": null,
+        "sort_num": 61,
+        "appctlname": "二级护理1",
+        "viewhidden": false,
+        "ispublicctrl": false,
+        "attrextends": {
+            "showbylinkctrl": "二级护理"
+        }
+    },
+    {
+        "ctl_id": "62",
+        "ctl_name": "二级护理2",
+        "ctl_type": "drop",
+        "ctl_type_attr": "drop_single",
+        "data_code": "DE06.00.211.00",
+        "data_innercode": "NS.YDHL.DE.0200000658",
+        "data_name": "护理等级代码",
+        "data_value": [
+            {
+                "isdefault": false,
+                "isenable": true,
+                "ctl_id": "62_3",
+                "val_code": "3",
+                "val_str": "二级护理",
+                "val_score": null,
+                "val_mark": null,
+                "val_order": 0
+            }
+        ],
+        "default_value": null,
+        "default_value_script": null,
+        "default_type": null,
+        "data_required": "False",
+        "mobile_type": "专科护理",
+        "link_ctl": [],
+        "data_script": null,
+        "link_type": "radiobutton",
+        "ctl_remark": "",
+        "value_id": "C585E4073EAF4BF2B8C537C7AE8CCC7B",
+        "cellname": null,
+        "internal_version": "V1",
+        "dataelement_version": "V1.0",
+        "max_length": "1",
+        "max_value": null,
+        "min_value": null,
+        "sort_num": 62,
+        "appctlname": "二级护理2",
+        "viewhidden": false,
+        "ispublicctrl": false,
+        "attrextends": {
+            "showbylinkctrl": "二级护理"
+        }
+    }
+]
