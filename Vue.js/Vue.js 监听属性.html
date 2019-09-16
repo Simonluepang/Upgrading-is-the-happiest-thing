@@ -7,8 +7,9 @@
 </head>
 <body>
 <div id="app">
-    <p style="front-size:25px;">计数器：{{ counter }}</p>
-    <button @click="counter++" style="front-size:25px;">点我</button>
+    <p style="font-size:25px;">计数器：{{ counter }}</p>
+    <button @click="counter++" style="font-size:25px;">点我</button>
+    <p id="info"></p>
 </div>
 <script type="text/javascript">
     var vm = new Vue({
@@ -17,7 +18,10 @@
             counter:1
         }
     });
+    // $watch是一个实例方法，必须添加在Vue实例之外才能实现正确的响应
+    // 监听counter属性
     vm.$watch('counter',function (nval,oval) {
+        // 当counter的值发生变化后会调用该方法
         alert('计数器值的变化 ：' + oval + '变为' + nval + '!');
     });
 </script>
@@ -28,11 +32,12 @@
 </div>
 <p id="info"></p>
 <script type="text/javascript">
+//进行千米与米之间的换算
     var vm = new Vue({
         el: '#computed_props',
         data:{
-            kilometers:0,
-            meters:0
+            kilometers :0,
+            meters :0
         },
         methods:{
 

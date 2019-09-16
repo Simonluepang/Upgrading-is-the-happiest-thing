@@ -10,6 +10,11 @@
             height: 100px;
             background: green;
         }
+        .text-danger{
+            width:200px;
+            height:200px;
+            background: red;
+        }
     </style>
 </head>
 <body>
@@ -17,6 +22,7 @@
     <div v-bind:class="{ active:isActive }"></div>
 </div>
 <script>
+    // 显示了一个绿色的div块，如果isActive为false则不显示
     new Vue({
         el:'#app1',
         data:{
@@ -24,5 +30,80 @@
         }
     })
 </script>
+
+<div id="app2">
+    <div class="static"
+    v-bind:class="{ active: isActive, 'text-danger':hasError }"></div>
+</div>
+<script>
+    //text-danger类背景色覆盖了active类的背景色
+    //在对象中传入更多属性类动态切换多个class
+new Vue({
+    el:'#app2',
+    data:{
+        isActive:true,
+        hasError:true
+    }
+})
+</script>
+
+<div id="app3">
+    <div v-bind:class="classObject"></div>
+</div>
+<script>
+new Vue({
+    //也可以直接绑定数据里的一个对象
+    el:'#app3',
+    data:{
+        classObject:{
+            active:true,
+            'text-danger':true
+        }
+    }
+})
+</script>
+
+<div id="app5">
+    <div v-bind:class="[activeClass, errorClass]"></div>
+</div>
+<script>
+new Vue({
+    //我们可以把一个数组传给vbind-class
+    el:'#app5',
+    data:{
+        activeClass:'active',
+        errorClass:'text-danger'
+    }
+})
+</script>
+
+<div id="app6">
+    <div v-bind:class="[errorClass,isActive ? activeClass : '']"></div>
+</div>
+<script>
+new Vue({
+    //我们还可以使用三元表达式来切换列表中的class
+    el:'#app6',
+    data:{
+        isActive: true,
+        activeClass: 'active',
+        errorClass: 'text-danger'
+    }
+})
+</script>
+<div id="app7">
+    <div v-bind:style="{ color: activeColor, fontSize: fontSize + 'px' }">菜鸟教程</div>
+</div>
+<script>
+    //在v-bind：style直接设置样式
+new Vue({
+    el: '#app7',
+    data:{
+        activeColor: 'green',
+        fontSize:30
+    }
+})
+</script>
+
 </body>
 </html>

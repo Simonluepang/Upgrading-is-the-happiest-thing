@@ -6,7 +6,21 @@
     <script src="js/vue.js"></script>
 </head>
 <body>
+<!--
+为什么要使用计算属性？：
+1.{{}} 在模板中放入太多的话会让模板过重并且难以维护
+2.不方便复用
+因此对于任何复杂逻辑，应当使用计算属性
+
+为什么要使用计算属性而不是methods方法？
+1.方法总会重新执行
+2.计算属性只有在发生改变的时候才会重新取值
+
+计算属性默认只有getter，可以手动添加setter
+-->
+
 <div id="app1">
+    <!--// 原代码逻辑，未使用计算属性 -->
     {{message.split('').reverse().join('')}}
 </div>
 <script>
@@ -19,6 +33,7 @@
 </script>
 
 <div id="app2">
+    <!--使用计算属性-->
     <p>原始字符串： {{message}}</p>
     <p>计算后反转字符串： {{reversedMessage}}</p>
     <p>使用方法后反转字符串： {{reversedMessage2()}}</p>
@@ -45,7 +60,7 @@
 </script>
 
 <div id="app3">
-    <p>{{site}}</p>
+    <p>{{ site }}</p>
 </div>
 <script>
     var vm = new Vue({
@@ -65,14 +80,14 @@
                 set: function(newValue) {
                     var names = newValue.split(' ')
                     this.name = names[0]
-                    this.url = names[name.lenth - 1]
+                    this.url = names[names.length - 1]
                 }
             }
         }
     })
     // 调用setter，vm.name和vm.url也会被对应更新
     // 如何读取到后面的url？
-    vm.site = '菜鸟教程 http://www.runoob.com';
+    vm.site = '英文打错了造成了undefined的问题 http://www.runoob.com';
     document.write('name:' + vm.name);
     document.write('<br>');
     document.write('url:' + vm.url);
