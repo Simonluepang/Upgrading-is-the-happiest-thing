@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vue.js 组件</title>
+    <script src="js/vue.js"></script>
+</head>
+<body>
+
+<div id="app">
+    <!--全局组件-->
+    <runoob></runoob>
+</div>
+<script>
+//注册
+Vue.component('runoob',{
+    template:'<h1>自定义组件！</h1>'
+})
+//创建根实例
+new Vue({
+    el:'#app'
+})
+</script>
+
+<div id="app1">
+    <!--局部组件-->
+    <runoob1></runoob1>
+</div>
+<script>
+var Child = {
+    template:'<h1>自定义组件1！</h1>'
+}
+//创建根实例
+new Vue({
+    el:'#app1',
+    components:{
+        // <runoob>将只在父模板可用
+        'runoob1': Child
+    }
+})
+</script>
+
+<div id="app3">
+    <!--Prop-->
+    <child message="hello!"></child>
+</div>
+<script>
+//注册
+Vue.component('child',{
+    //声明 props
+    props:['message'],
+    //同样也可以在vm实例中像"this.message"这样使用
+    template:'<span>{{ message }}</span>'
+})
+//创建根实例
+new Vue({
+    el:'#app3'
+})
+</script>
+
+<div id="app4">
+    <!--动态prop-->
+    <div>
+        <input v-model="parentMsg">
+        <br>
+        <child v-bind:message="parentMsg"></child>
+    </div>
+</div>
+<script>
+//注册
+Vue.component('child',{
+    //声明 props
+    props: ['message'],
+    //同样可以在vm实例中像"this.message"这样使用
+    template: '<span>{{ message }}</span>'
+})
+//创建根实例
+new Vue({
+    el:'#app4',
+    data:{
+        parentMsg:'父组件内容'
+    }
+})
+</script>
+
+<div id="app5">
+    <!--下面实例中将v-bind指令将todo传到每一个重复的组件中-->
+    <ol>
+        <todo-item v-for="item in sites" v-bind:todo="item"></todo-item>
+    </ol>
+</div>
+<script>
+Vue.component('my-component',{
+    props:{
+        //基础的类型检查（’null’和‘undefined’会通过任何类型验证
+        propA:Number,
+        //多个可能的类型
+        propB:[String,Number],
+        //必填的字符串
+        propC:{
+            type:String,
+            required:true
+        },
+        //带有默认值的数字
+        propD:{
+            type:Number,
+            default:100
+        },
+        //带有默认值的对象
+        propE:{
+            type:Object,
+            //对象或者数组默认值必须从一个工厂函数获取
+            default:function(){
+                return {message:'hello'}
+            }
+        },
+        //自定义验证函数
+        propF:{
+            validator:function(value){
+                //这个值必须匹配下列字符串中的一个
+                return ['success','warning','danger'].indexOf(value) !== -1
+            }
+        }
+    }
+})
+Vue.component('todo-item',{
+    props:['todo'],
+    template:'<li>{{ todo.text }}</li>'
+})
+new Vue({
+    el:'#app5',
+    data:{
+        sites:[
+            {text:'Runoob'},
+            {text:'Goole'},
+            {text:'Taobao'}
+        ]
+    }
+})
+</script>
+
+<div id="app6">
+    <div id="counter-event-example">
+        <p>{{ total }}</p>
+        <button-counter v-on:increment="incrementTotal"></button-counter>
+        <button-counter v-on:increment="incrementTotal"></button-counter>
+    </div>
+</div>
+<script>
+Vue.component('button-counter',{
+    template:'<button v-on:click="incrementHandler">{{ counter }}</button>',
+    data: function(){
+        return {
+            counter:0
+        }
+    },
+    methods: {
+        incrementHandler:function(){
+            this.counter += 1
+            this.$emit('increment')
+        }
+    },
+})
+new Vue({
+    el:'#counter-event-example',
+    data:{
+        total:0
+    },
+    methods:({
+        incrementTotal: function(){
+            this.total += 1
+        }
+    }
+    )
+})
+</script>
+
+<div id="components-demo3" class="demo">
+    <button-counter2></button-counter2>
+    <button-counter2></button-counter2>
+    <button-counter2></button-counter2>
+</div>
+<script>
+var buttonCounter2Data = {
+    count:0
+}
+Vue.component('button-counter2',{
+    
+    data:function(){
+        //data选项是一个函数，组件不相互影响
+        return {
+            count:0
+        }
+    },
+    /*
+    data:function(){
+        // data选项是一个对象，会影响到其他实例
+        return buttonCounter2Data
+    },
+    */
+    template:'<button v-on:click="count++">点击了{{count}}次。</button>'
+})
+new Vue({
+    el:'#components-demo3'
+})
+</script>
+</body>
+</html>

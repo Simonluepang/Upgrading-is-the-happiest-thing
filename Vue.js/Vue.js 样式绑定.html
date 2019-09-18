@@ -105,5 +105,37 @@ new Vue({
 })
 </script>
 
+<div id="app8">
+    <div v-bind:style="styleObject">菜鸟教程</div>
+</div>
+<script>
+new Vue({
+    el:'#app8',
+    data:{
+        styleObject:{
+            color:'green',
+            fontSize:'30px'
+        }
+    }
+})
+</script>
+
+<div id="app9">
+    <div v-bind:style="[baseStyles, overridingStyles]">菜鸟教程</div>
+</div>
+<script>
+new Vue({
+    el:'#app9',
+    data:{
+        baseStyles:{
+            color:'green',
+            fontSize:'30px'
+        },
+        overridingStyles:{
+            'font-weight':'bold'
+        }
+    }
+})
+</script>
 </body>
 </html>
