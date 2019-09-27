@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vue.js 混入</title>
+    <script src="js/vue.js"></script>
+</head>
+<body>
+<div id="databinding"></div>
+<script type = "text/javascript">
+var vm = new Vue({
+    el:'#databinding',
+    data:{},
+    methods: {},
+});
+//定义一个混入对象
+var myMixin = {
+    created:function () {
+        this.startmixin()
+    },
+    methods: {
+        startmixin:function() {
+            document.write("欢迎来到混入实例");
+        }
+    }
+};
+var Component = Vue.extend({
+        mixins:[myMixin]
+    })
+var component = new Component();
+</script>
+
+<div id="databinding1"></div>
+<script type = "text/javascript">
+var mixin = {
+    created:function() {
+        document.write('混入调用' + '<br>')
+    }
+}
+new Vue({
+    mixins: [mixin],
+    created: function() {
+        document.write('组件调用' + '<br>')
+    }
+})
+</script>
+
+<div id="databinding1"></div>
+<script type = "text/javascript">
+var mixin = {
+    methods:{
+        helloworld: function() {
+            document.write('HelloWorld 方法' + '<br>');
+        },
+        samemethod: function() {
+            document.write('Mixin:相同方法名' + '<br>');
+        }
+    }
+};
+var vm = new Vue({
+    mixins: [mixin],
+    methods:{
+        start:function () {
+            document.write('start 方法' + '<br>');
+        },
+        samemethod: function() {
+            document.write('Main:相同方法名' + '<br>');
+        }
+    }
+});
+vm.helloworld();
+vm.start();
+vm.samemethod();
+</script>
+
+<script type = "text/javascript">
+// 为自定义的选项 'myOption' 注入一个处理器。
+Vue.mixin({
+    created: function() {
+        var myOption = this.$options.myOption 
+        if (myOption) {
+            document.write(myOption)
+        }
+    }
+})
+new Vue({
+    myOption: 'Hello!'
+})
+// => "Hello!"
+</script>
+</body>
+</html>

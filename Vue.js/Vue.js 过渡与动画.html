@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vue.js 过渡 & 动画 </title>
+    <script src="js/vue.js"></script>
+    <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/animate.css@3.5.1" rel="stylesheet" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script>
+    <!---->
+    <style>
+    /*
+    可以设置不同的进入和离开动画
+    也可以设置持续时间和动画函数
+    */
+    .fade-enter-active, .fade-leave-active {
+        transition:opacity 2s
+    }
+    .fade-enter, .fade-leave-to {
+        opacity: 0
+    }
+
+    .slide-fade-enter-active {
+        transition: all .3s ease;
+    }
+    .slide-fade-leave-active {
+        transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+    }
+    .slide-fade-enter, .slide-fade-leave-to{
+        transform: translateX(10px);
+        opacity: 0;
+    }
+
+    .bounce-enter-active {
+        animation: bounce-in .5s
+    }
+    .bounce-leave-active {
+        animation: bounce-in .5s reverse;
+    }
+    @keyframes bounce-in{
+        0% {
+            transform: scale(0);
+        }
+        50% {
+            transform: scale(1.5);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+    </style>
+</head>
+<body>
+
+<div id = "databinding">
+    <!--过渡-->
+    <button v-on:click = "show =! show">点我！⬇</button>
+    <transition name = "fade">
+        <p v-show = "show" v-bind:style = "styleobj">动画实例</p>
+    </transition>
+</div>
+<script type = "text/javascript">
+var vm = new Vue({
+    el:'#databinding',
+    data:{
+        show:true,
+        styleobj:{
+            fontSize:'30px',
+            color:'red'
+        }
+    },
+    methods:{
+        
+    }
+})
+</script>
+
+<div id = "databinding1">
+    <!--CSS过渡-->
+        <button v-on:click = "show = !show">点我！⬇</button>
+        <transition name="slide-fade">
+            <p v-if="show">菜鸟教程</p>
+        </transition>
+        </div>
+        <script type = "text/javascript">
+        new Vue({
+            el: '#databinding1',
+            data: {
+                show: true
+            }
+        })
+</script>
+
+<div id = "databinding2">
+    <!--CSS动画-->
+    <button v-on:click = "show =! show">点我！⬇</button>
+    <transition name="bounce">
+        <p v-if="show">菜鸟教程 -- 学的不是技术，更是梦想！</p>
+    </transition>
+</div>
+<script type = "text/javascript">
+new Vue({
+    el: '#databinding2',
+    data: {
+        show: true
+    }
+})
+</script>
+
+<div id="databinding3">
+    <button v-on:click = "show =! show">点我！⬇</button>
+    <transition 
+    name="custom-classes-transition"
+    enter-active-class="animated tada"
+    leave-active-class="animated bounceOutRight">
+    <p v-if="show">菜鸟教程 -- 学的不仅是技术，更是梦想！！</p>
+</transition>
+</div>
+<script type = "text/javascript">
+new Vue({
+    el: '#databinding3',
+    data:{
+        show: true
+    }
+})
+</script>
+
+<div id="databinding4">
+    <button v-on:click = "show =! show">点我！⬇</button>
+    <transition 
+    v-on:before-enter="beforeEnter"
+    v-on:enter="enter"
+    v-on:leave="leave"
+    v-bind:css="false">
+<p v-if="show">菜鸟教程 -- 学的不仅是技术，更是梦想！！！</p>
+</transition>
+</div>
+<script type = "text/javascript">
+new Vue({
+    el: '#databinding4',
+    data:{
+        show:false 
+    },
+    methods:{
+        beforeEnter: function (el) {
+            el.style.opacity = 0
+            el.style.transformOrigin = 'left'
+        },
+        enter:function(el,done) {
+            Velocity(el,{opacity:1,fontSize:'1.4em'},{duration:300})
+            Velocity(el,{fontSize:'1em'},{complete:done })
+        },
+        leave : function(el,done) {
+            Velocity(el,{translateX:'15px',rotateZ:'50deg'},{duration:600})
+            Velocity(el,{rotateZ:'100deg'},{loop:2})
+            Velocity(el,{
+                rotateZ:'45deg',
+                translateY:'30px',
+                translateX:'30px',
+                opacity:0
+            },{conplete:done })
+        }
+    }
+})
+</script>
+</body>
+</html>
