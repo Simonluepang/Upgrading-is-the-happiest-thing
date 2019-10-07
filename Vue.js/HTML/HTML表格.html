@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>HTML表格</title>
+    </head>
+    <body>
+        <p>
+            每个表格从一个table标签开始。
+            每个表格行从tr标签开始。
+            每个表格的数据从td标签开始。
+        </p>
+        <h4>一列：</h4>
+        <table>
+            <tr>
+                <td>100</td>
+            </tr>
+        </table>
+
+        <h4>一行三列：</h4>
+        <table border="2">
+            <tr>
+                <td>100</td>
+                <td>200</td>
+                <td>300</td>
+            </tr>
+        </table>
+
+        <h4>两行三列：</h4>
+        <table border="1">
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+                <th>Header 3</th>
+            </tr>
+            <tr>
+                <td>100</td>
+                <td>200</td>
+                <td>300</td>
+            </tr>
+            <tr>
+                <td>400</td>
+                <td>500</td>
+                <td>600</td>
+            </tr>
+        </table>
+
+        <h4>水平标题：</h4>
+        <table border="1">
+            <tr>
+                <th>Name</th>
+                <th>Telephone</th>
+                <th>Telephone</th>
+            </tr>
+            <tr>
+                <td>Bill Gates</td>
+                <td>555 77 845</td>
+                <td>555 77 846</td>
+            </tr>
+        </table>
+
+        <h4>垂直标题：</h4>
+        <table border="1">
+            <tr>
+                <th>First Name:</th>
+                <td>Bill Gates</td>
+            </tr>
+            <tr>
+                <th>Telephone1:</th>
+                <td>555 77 845</td>
+            </tr>
+            <tr>
+                <th>Telephone2</th>
+                <td>555 77 846</td>
+            </tr>
+        </table>
+
+        <table border="1">
+            <caption>Monthly savings</caption>
+            <tr>
+                <th>Month</th>
+                <th>Savings</th>
+            </tr>
+            <tr>
+                <td>January</td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>February</td>
+                <td>$50</td>
+            </tr>
+        </table>
+
+    <h4>单元格跨两列：</h4>    
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th colspan='2'>Telephone</th>
+        </tr>
+        <tr>
+            <td>Bill Gates</td>
+            <td>555 77 854</td>
+            <td>555 77 855</td>
+        </tr>
+    </table>
+    <h4>单元格跨两行：</h4>
+        <table border="1">
+            <tr>
+                <th>First Name:</th>
+                <td>Bill Gates</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Telephone:</th>
+                <td>555 77 854</td>
+            </tr>
+            <tr>
+                <td>555 77 855</td>
+            </tr>
+    </table>
+
+    <table border="1">
+        <tr>
+            <td>
+                <p>这是一个段落</p>
+                <p>这是另一个段落</p>
+            </td>
+            <td>
+                这个单元格包含一个表格：
+                <table border="1">
+                    <tr>
+                        <td>A</td>
+                        <td>B</td>
+                    </tr>
+                    <tr>
+                        <td>C</td>
+                        <td>D</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>这个单元格包含一个列表：
+            <ul>
+                <li>apples</li>
+                <li>bananas</li>
+                <li>pineapples</li>
+            </ul>
+        </td>
+        <td>HELLO</td>
+        </tr>
+    </table>
+    <h4>无单元格边距：</h4>
+    <table border="1">
+        <tr>
+            <td>First</td>
+            <td>Row</td>
+        </tr>
+        <tr>
+            <td>Second</td>
+            <td>Row</td>
+        </tr>
+    </table>
+    <h4>有单元格边距：</h4>
+    <table border="1" cellpadding="10" cellspacing="10">
+        <tr>
+            <td>First</td>
+            <td>Row</td>
+        </tr>
+        <tr>
+            <td>Second</td>
+            <td>Row</td>
+        </tr>
+    </table>
+    </body>
+    </html>

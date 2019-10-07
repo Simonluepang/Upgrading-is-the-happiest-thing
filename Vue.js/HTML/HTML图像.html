@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>HTML图像</title>
+    </head>
+    <body>
+        <h2>Norwegian Mountain Trip</h2>
+        <img border="5" src="https://www.runoob.com/images/pulpit.jpg" alt="Pulpit rock" width="304" heighy="228">
+        <p>一个图像：<img src="smiley.gif" alt="Smiley face" width="32" height="32"></p>
+        <p>一个动图：<img src="hackanm.gif" alt="Computer man" width="48" height="48"></p>
+        <p>注意插入动图的语法和静态图的语法是一样的。</p>
+
+        <p>一个来自文件夹中的图像：</p>
+        <img src="/images/chrome.gif" alt="Google Chrome" width="33" height="32">
+        <p>一个来自菜鸟教程的图像：</p>
+        <img src="https://www.runoob.com/images/logo.png" alt="runoob.com">
+
+        <h4>默认对齐的图像（align="bottom"）：</h4>
+        <p>这是一些文本。
+            <img src="https://www.runoob.com/images/logo.png" alt="Smiley face">
+            这是一些文本。
+        </p>
+        <h4>图片使用align="middle":</h4>
+        <p>这是一些文本。
+            <img src="https://www.runoob.com/images/logo.png" alt="Smiley face" align="middle">
+            这是一些文本。
+        </p>
+        <h4>图片使用align="top":</h4>
+        <p>这是一些文本。
+                <img src="https://www.runoob.com/images/logo.png" alt="Smiley face" align="top">
+                这是一些文本。
+        </p>
+        <p><b>注意：</b>在HTML4中align属性已经废弃，HTML5已不支持该属性，可以使用CSS代替。</p>
+
+        <p>
+            <img src="https://www.runoob.com/images/logo.png" alt="image" style="float:left">
+            一个带图片的段落，图片在段落左边浮动显示。
+        </p>
+
+        <p>
+            <img src="https://www.runoob.com/images/logo.png" alt="image" style="float:right">
+            一个带图片的段落，图片在段落右边浮动显示。
+        </p>
+
+        <p>创建图片链接：
+            <a href="https://www.runoob.com/html/html-tutorial.html">
+            <img border="0" src="https://www.runoob.com/images/logo.png" alt="HTML教程"></a>
+        </p>
+
+        <p>创建图像映射--点击太阳或者其他行星，注意变化：</p>
+        <img src="planets.gif" width="145" height="126" alt="Planets" usemap="#panetmap">
+
+        <map name="planetmap">
+            <area shape="rect" coords="0,0,82,126" alt="Sun" href="sun.htm">
+            <area shape="circle" coords="90,58,3" alt="Mercury" href="mercur.htm">
+            <area shape="circle" coords="124,58,8" alt="Venus" href="venus.htm">
+        </map>
+    </body>
+</html>
