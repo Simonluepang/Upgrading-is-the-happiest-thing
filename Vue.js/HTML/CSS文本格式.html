@@ -3,10 +3,13 @@
     <head>
         <meta charset="utf-8">
         <title>CSS文本格式</title>
-        <style>
+        <style type="text/css">
         body {color:red;}
-        p {text-indent:50px;}
-        h1 {color:#00ff00;text-align:center;letter-spacing:2px;text-decoration:overline;}
+        p {text-indent:50px;
+            word-spacing:30px;
+            white-space:nowrap;
+        }
+        h1 {color:#00ff00;text-align:center;letter-spacing:2px;text-decoration:overline;text-shadow:2px 2px #ff0000;}
         p.date {text-align:right;}
         p.main {text-align:justify;}/*每一行被展开的宽度相等，左右外边距对齐*/
         p.ex {color:rgb(0,0,255);}
@@ -18,6 +21,9 @@
         p.capitalize {text-transform:capitalize;}
         p.small1 {line-height:70%;}
         p.big1 {line-height:200%;}
+        div.ex1 {direction:rtl;}
+        img.top {vertical-align:text-top;}
+        img.bottom {vertical-align:text-bottom;}
         </style>
     </head>
     <body>
@@ -30,5 +36,15 @@
         <p class="main">“当我年轻的时候，我梦想改变这个世界；当我成熟以后，我发现我不能够改变这个世界，我将目光缩短了些，决定只改变我的国家；当我进入暮年以后，我发现我不能够改变我们的国家，我的最后愿望仅仅是改变一下我的家庭，但是，这也不可能。当我现在躺在床上，行将就木时，我突然意识到：如果一开始我仅仅去改变我自己，然后，我可能改变我的家庭；在家人的帮助和鼓励下，我可能为国家做一些事情；然后，谁知道呢?我甚至可能改变这个世界。”</p>
         <p>链接到：<a href="https://www.runoob.com/">runoob.com</a></p>
         <p class="uppercase">This is some text.</p>
+        <p class="big1">测试行高用文本<br>
+            测试行高用文本<br>
+            测试行高用文本<br>
+            测试行高用文本<br>
+            测试行高用文本<br></p>
+        <div>一些文本，默认书写方向。</div>
+        <div class="ex1">一些文本，书写方向从右到左。</div>
+        <p>一个<img src="logo.png" alt="w3cschool" width="270" height="50" />默认对齐的图片</p>
+        <p>一个<img class="top" src="logo.png" alt="w3cschool" width="270" height="50" />上对齐的图片</p>
+        <p>一个<img class="bottom" src="logo.png" alt="w3cschool" width="270" height="50" />下对齐的图片</p>
     </body>
 </html>
