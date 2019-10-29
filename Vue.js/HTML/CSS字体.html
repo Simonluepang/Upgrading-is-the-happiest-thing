@@ -6,12 +6,23 @@
         <style>
         p.serif {font-family:"Times New Roman", Times,serif;}
         p.sansserif {font-family:Arial, Helvetica, sans-serif;}
-        p.normal {font-style:normal;}
+        p.normal {font-style:normal;font-weight:normal;font-variant:normal;}
+        p.small {font-variant:small-caps;}
+        p.light {font-weight:lighter;}
+        p.thick {font-weight:bold;}
+        p.thicker {font-weight:800;}
         p.italic {font-style:italic;}
         p.oblique {font-style:oblique;}
+        body {font-size:100%}
         h1 {font-size:40px;}
-        h2 {font-size:30px;}
+        h2 {font-size:1.875em;}
         p {font-size:28px;}
+        p.ex1 {
+            font:15px arial,sans-serif;
+        }
+        p.ex2 {
+            font:italic bold 12px/30px Georgia,serif;
+        }
         </style>
     </head>
     <body>
@@ -20,7 +31,14 @@
         <p class="serif">这一段字体是Times New Roman</p>
         <p class="sansserif">这一段字体是Arial.</p>
         <p class="normal">这是一个段落，正常。</p>
+        <p class="light">This is a paragragh.</p>
+        <p class="thick">This is a paragragh.</p>
+        <p class="thicker">This is a paragragh.</p>
         <p class="italic">这是一个段落，斜体。</p>
         <p class="oblique">这是一个段落，也是斜体。</p>
+        <p class="normal">My name is Hege Refsnes.</p>
+        <p class="small">My name is Hege Refsnes.</p>
+        <p class="ex1">This is a paragragh.This is a paragragh.</p>
+        <p class="ex2">This is a paragragh.This is a paragragh.</p>
     </body>
 </html>

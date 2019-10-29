@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CSS分组和嵌套选择器</title>
+        <style>
+        h1,h2 {
+            color:green;
+        }
+        p {
+            color:blue;
+            text-align:center;
+        }/*为所有p元素指定一个样式*/
+        .marked {
+            background-color:red;
+        }/*为所有class="marked"的元素指定一个样式*/
+        .marked p {
+            color:white;
+        }/*为所有class="marked"的元素内的p元素指定一个样式*/
+        p.marked {
+            text-decoration:underline;
+        }/*为所有class="marked"的p元素指定一个样式*/
+        </style>
+    </head>
+    <body>
+        <h1>Hello World!</h1>
+        <h2>Smaller heading!</h2>
+        <p>This is a paragraph.</p>
+        <p>这个段落是蓝色文本，居中对齐。</p>
+        <div class="marked">
+            <p>这个段落不是蓝色文本。</p>
+        </div>
+        <p>所有class="marked"元素内的p元素指定一个样式，但是又不同的文本颜色。</p>
+        <p class="marked">带下划线的p段落</p>
+    </body>
+</html>
